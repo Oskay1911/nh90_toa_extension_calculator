@@ -1,0 +1,1356 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <html lang="en"><head><script>(function(firebaseConfig, initialAuthToken, appId) \{\
+        window.__firebase_config = firebaseConfig;\
+        window.__initial_auth_token = initialAuthToken;\
+        window.__app_id = appId;\
+            \})("\\n\{\\n  \\"apiKey\\": \\"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\\",\\n  \\"authDomain\\": \\"bard-frontend.firebaseapp.com\\",\\n  \\"projectId\\": \\"bard-frontend\\",\\n  \\"storageBucket\\": \\"bard-frontend.firebasestorage.app\\",\\n  \\"messagingSenderId\\": \\"175205271074\\",\\n  \\"appId\\": \\"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\\"\\n\}\\n","eyJhbGciOiJSUzI1NiIsImtpZCI6ImE3ZTI3MWMzMmJkMTBkY2EwNTExOThmNjkwNjc3MGEzN2Q0MmRhM2IiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwMDg1MTU3NzQ4NDc0MjQ3NjAyNyIsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLWZic3ZjQGJhcmQtZnJvbnRlbmQuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJjbGFpbXMiOnsiYXBwSWQiOiJjX2U3ZjE0MDY2ZmI2NTNmNjhfbmg5MF90b2FfY2FsY3VsYXRvci5odG1sLTcwOSJ9LCJleHAiOjE3NjgyNjM2ODksImlhdCI6MTc2ODI2MDA4OSwiYWxnIjoiUlMyNTYifQ.qjbfvSlajM3RgkF9GZMtsDS-xlMVhTe09e5wFjb6svUT266p6wNgQuIQ189z51TjEm_IlCikd7j9JPojv0lfWTSl1UsdtqVIVMKIqXh7pZ1Ry27mmB2QsacCH8L-ZVRuKMHD-o00XvV5XMqQLwtwZ-1mgeKG02hqptq84rAjcDyeZ0dWWmaKmBPf-uLrTTQuyIypGhpTUIBKqDOiI0ilVv39-AFZNd97lQnShFxUwZkEjTt6leHLGYbXpLOnKQ0QRUB6BoC_w5JhlAmykMg2ncssyFWmPhMaEJwjpj6f7DwwwrYuWQf-_TLTRc9CPz9ocSTUyXQ0eELaO5eYbI5q4A","c_e7f14066fb653f68_nh90_toa_calculator.html-709")</script><script>'use strict';var h=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,d)\{if(a==Array.prototype||a==Object.prototype)return a;a[b]=d.value;return a\};function l(a)\{a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b)\{var d=a[b];if(d&&d.Math==Math)return d\}throw Error("Cannot find global object");\}var n=l(this);\
+function p(a,b)\{if(b)a:\{var d=n;a=a.split(".");for(var c=0;c<a.length-1;c++)\{var e=a[c];if(!(e in d))break a;d=d[e]\}a=a[a.length-1];c=d[a];b=b(c);b!=c&&b!=null&&h(d,a,\{configurable:!0,writable:!0,value:b\})\}\}function r(a)\{function b(c)\{return a.next(c)\}function d(c)\{return a.throw(c)\}return new Promise(function(c,e)\{function f(g)\{g.done?c(g.value):Promise.resolve(g.value).then(b,d).then(f,e)\}f(a.next())\})\}function t(a)\{return r(a())\}\
+p("Object.values",function(a)\{return a?a:function(b)\{var d=[],c;for(c in b)Object.prototype.hasOwnProperty.call(b,c)&&d.push(b[c]);return d\}\});p("Array.prototype.includes",function(a)\{return a?a:function(b,d)\{var c=this;c instanceof String&&(c=String(c));var e=c.length;d=d||0;for(d<0&&(d=Math.max(d+e,0));d<e;d++)\{var f=c[d];if(f===b||Object.is(f,b))return!0\}return!1\}\});/*\
+\
+ MIT License\
+\
+ Copyright (c) 2017-2023 W.Y.\
+\
+ Permission is hereby granted, free of charge, to any person obtaining a copy\
+ of this software and associated documentation files (the "Software"), to deal\
+ in the Software without restriction, including without limitation the rights\
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\
+ copies of the Software, and to permit persons to whom the Software is\
+ furnished to do so, subject to the following conditions:\
+\
+ The above copyright notice and this permission notice shall be included in\
+ all copies or substantial portions of the Software.\
+\
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\
+ SOFTWARE.\
+\
+*/\
+function u(a,b)\{const d=a.style;b.backgroundColor&&(d.backgroundColor=b.backgroundColor);b.width&&(d.width=`$\{b.width\}px`);b.height&&(d.height=`$\{b.height\}px`);const c=b.style;c!=null&&Object.keys(c).forEach(e=>\{d[e]=c[e]\})\};var v=(()=>\{let a=0;return()=>\{a+=1;return`u$\{`0000$\{(Math.random()*1679616<<0).toString(36)\}`.slice(-4)\}$\{a\}`\}\})();function w(a)\{const b=[];for(let d=0,c=a.length;d<c;d++)b.push(a[d]);return b\}let x=null;function y(a=\{\})\{return x?x:a.l?x=a.l:x=w(window.getComputedStyle(document.documentElement))\}function z(a,b)\{return(a=(a.ownerDocument.defaultView||window).getComputedStyle(a).getPropertyValue(b))?parseFloat(a.replace("px","")):0\}\
+function A(a,b=\{\})\{var d;if(!(d=b.width))\{d=z(a,"border-left-width");var c=z(a,"border-right-width");d=a.clientWidth+d+c\}(b=b.height)||(b=z(a,"border-top-width"),c=z(a,"border-bottom-width"),b=a.clientHeight+b+c);return\{width:d,height:b\}\}function B(a)\{return new Promise((b,d)=>\{const c=new Image;c.onload=()=>\{c.decode().then(()=>\{requestAnimationFrame(()=>b(c))\})\};c.onerror=d;c.crossOrigin="anonymous";c.decoding="async";c.src=a\})\}\
+function C(a)\{return t(function*()\{return Promise.resolve().then(()=>(new XMLSerializer).serializeToString(a)).then(encodeURIComponent).then(b=>`data:image/svg+xml;charset=utf-8,$\{b\}`)\})\}\
+function D(a,b,d)\{return t(function*()\{const c=document.createElementNS("http://www.w3.org/2000/svg","svg"),e=document.createElementNS("http://www.w3.org/2000/svg","foreignObject");c.setAttribute("width",`$\{b\}`);c.setAttribute("height",`$\{d\}`);c.setAttribute("viewBox",`0 0 $\{b\} $\{d\}`);e.setAttribute("width","100%");e.setAttribute("height","100%");e.setAttribute("x","0");e.setAttribute("y","0");e.setAttribute("externalResourcesRequired","true");c.appendChild(e);e.appendChild(a);return C(c)\})\}\
+var E=(a,b)=>\{if(a instanceof b)return!0;a=Object.getPrototypeOf(a);return a===null?!1:a.constructor.name===b.name||E(a,b)\};function F(a,b)\{return y(b).map(d=>\{const c=a.getPropertyValue(d),e=a.getPropertyPriority(d);return`$\{d\}: $\{c\}$\{e?" !important":""\};`\}).join(" ")\}\
+function G(a,b,d,c)\{a=window.getComputedStyle(a,d);var e=a.getPropertyValue("content");if(e!==""&&e!=="none")\{var f=v();try\{b.className=`$\{b.className\} $\{f\}`\}catch(k)\{return\}e=document.createElement("style");var g=e.appendChild;d=`.$\{f\}:$\{d\}`;a.cssText?(c=a.getPropertyValue("content"),c=`$\{a.cssText\} content: '$\{c.replace(/'|"/g,"")\}';`):c=F(a,c);g.call(e,document.createTextNode(`$\{d\}\{$\{c\}\}`));b.appendChild(e)\}\};function H(a)\{return a.search(/^(data:)/)!==-1\}function I(a,b,d)\{return t(function*()\{const c=yield fetch(a,b);if(c.status===404)throw Error(`Resource "$\{c.url\}" not found`);const e=yield c.blob();return new Promise((f,g)=>\{const k=new FileReader;k.onerror=g;k.onloadend=()=>\{try\{f(d(\{o:c,result:k.result\}))\}catch(m)\{g(m)\}\};k.readAsDataURL(e)\})\})\}const J=\{\};function K(a,b,d)\{let c=a.replace(/\\?.*/,"");d&&(c=a);/ttf|otf|eot|woff2?/i.test(c)&&(c=c.replace(/.*\\//,""));return b?`[$\{b\}]$\{c\}`:c\}\
+function L(a,b,d)\{return t(function*()\{const c=K(a,b,d.C);if(J[c]!=null)return J[c];d.u&&(a+=(/\\?/.test(a)?"&":"?")+(new Date).getTime());let e;try\{const f=yield I(a,d.i,(\{o:g,result:k\})=>\{b||(b=g.headers.get("Content-Type")||"");return k.split(/,/)[1]\});e=`data:$\{b\};base64,$\{f\}`\}catch(f)\{e=d.B||""\}return J[c]=e\})\};const M=\{P:"application/font-woff",R:"application/font-woff",N:"application/font-truetype",v:"application/vnd.ms-fontobject",H:"image/png",F:"image/jpeg",D:"image/jpeg",A:"image/gif",M:"image/tiff",L:"image/svg+xml",O:"image/webp"\};function N(a)\{return(a=/\\.([^./]*?)$/g.exec(a))?a[1]:""\};function O(a)\{return t(function*()\{const b=a.toDataURL();return b==="data:,"?a.cloneNode(!1):B(b)\})\}function aa(a,b)\{return t(function*()\{if(a.currentSrc)\{var d=document.createElement("canvas");const c=d.getContext("2d");d.width=a.clientWidth;d.height=a.clientHeight;c==null||c.drawImage(a,0,0,d.width,d.height);d=d.toDataURL();return B(d)\}d=a.poster;d=yield L(d,M[N(d).toLowerCase()]||"",b);return B(d)\})\}\
+function ba(a,b)\{return t(function*()\{try\{let d;if(a==null?0:(d=a.contentDocument)==null?0:d.body)return yield P(a.contentDocument.body,b,!0)\}catch(d)\{\}return a.cloneNode(!1)\})\}function ca(a,b)\{return t(function*()\{return E(a,HTMLCanvasElement)?O(a):E(a,HTMLVideoElement)?aa(a,b):E(a,HTMLIFrameElement)?ba(a,b):a.cloneNode(a.tagName!=null&&a.tagName.toUpperCase()==="SVG")\})\}\
+function da(a,b,d)\{return t(function*()\{if(b.tagName!=null&&b.tagName.toUpperCase()==="SVG")return b;let c=[];if(a.tagName!=null&&a.tagName.toUpperCase()==="SLOT"&&a.assignedNodes)c=w(a.assignedNodes());else\{let e;if(E(a,HTMLIFrameElement)&&((e=a.contentDocument)==null?0:e.body))c=w(a.contentDocument.body.childNodes);else\{let f;c=w(((f=a.shadowRoot)!=null?f:a).childNodes)\}\}if(c.length===0||E(a,HTMLVideoElement))return b;yield c.reduce((e,f)=>e.then(()=>P(f,d)).then(g=>\{g&&b.appendChild(g)\}),Promise.resolve());\
+return b\})\}function ea(a,b,d)\{const c=b.style;if(c)\{var e=window.getComputedStyle(a);e.cssText?(c.cssText=e.cssText,c.transformOrigin=e.transformOrigin):y(d).forEach(f=>\{let g=e.getPropertyValue(f);f==="font-size"&&g.endsWith("px")&&(g=`$\{Math.floor(parseFloat(g.substring(0,g.length-2)))-.1\}px`);E(a,HTMLIFrameElement)&&f==="display"&&g==="inline"&&(g="block");f==="d"&&b.getAttribute("d")&&(g=`path($\{b.getAttribute("d")\})`);c.setProperty(f,g,e.getPropertyPriority(f))\})\}\}\
+function fa(a,b)\{E(a,HTMLSelectElement)&&(b=Array.from(b.children).find(d=>a.value===d.getAttribute("value")))&&b.setAttribute("selected","")\}\
+function ha(a,b)\{return t(function*()\{var d=a.querySelectorAll?a.querySelectorAll("use"):[];if(d.length===0)return a;var c=\{\};for(var e=0;e<d.length;e++)\{var f=d[e].getAttribute("xlink:href");if(f)\{const g=document.querySelector(f);a.querySelector(f)||!g||c[f]||(c[f]=yield P(g,b,!0))\}\}d=Object.values(c);if(d.length)\{c=document.createElementNS("http://www.w3.org/1999/xhtml","svg");c.setAttribute("xmlns","http://www.w3.org/1999/xhtml");c.style.position="absolute";c.style.width="0";c.style.height="0";\
+c.style.overflow="hidden";c.style.display="none";e=document.createElementNS("http://www.w3.org/1999/xhtml","defs");c.appendChild(e);for(f=0;f<d.length;f++)e.appendChild(d[f]);a.appendChild(c)\}return a\})\}\
+function P(a,b,d)\{return t(function*()\{return d||!b.filter||b.filter(a)?Promise.resolve(a).then(c=>ca(c,b)).then(c=>da(a,c,b)).then(c=>\{E(c,Element)&&(ea(a,c,b),G(a,c,":before",b),G(a,c,":after",b),E(a,HTMLTextAreaElement)&&(c.textContent=a.value),E(a,HTMLInputElement)&&c.setAttribute("value",a.value),fa(a,c));return c\}).then(c=>ha(c,b)):null\})\};const Q=/url\\((['"]?)([^'"]+?)\\1\\)/g,ia=/url\\([^)]+\\)\\s*format\\((["']?)([^"']+)\\1\\)/g,ja=/src:\\s*(?:url\\([^)]+\\)\\s*format\\([^)]+\\)[,;]\\s*)+/g;function ka(a)\{const b=[];a.replace(Q,(d,c,e)=>\{b.push(e);return d\});return b.filter(d=>!H(d))\}\
+function la(a,b,d,c)\{return t(function*()\{try\{const e=d?(new URL(b,d||void 0)).toString():b;let f;f=yield L(e,M[N(b).toLowerCase()]||"",c);return a.replace(new RegExp(`(url\\\\(['"]?)($\{b.replace(/([.*+?^$\{\}()|\\[\\]\\/\\\\])/g,"\\\\$1")\})(['"]?\\\\))`,"g"),`$1$\{f\}$3`)\}catch(e)\{\}return a\})\}function ma(a,\{I:b\})\{return b?a.replace(ja,d=>\{for(;;)\{const [c,,e]=ia.exec(d)||[],f=c,g=e;if(!g)return"";if(g===b)return`src: $\{f\};`\}\}):a\}\
+function R(a,b,d)\{return t(function*()\{if(a.search(Q)===-1)return a;const c=ma(a,d);return ka(c).reduce((e,f)=>e.then(g=>la(g,f,b,d)),Promise.resolve(c))\})\};function S(a,b,d)\{return t(function*()\{var c;const e=(c=b.style)==null?void 0:c.getPropertyValue(a);return e?(c=yield R(e,null,d),b.style.setProperty(a,c,b.style.getPropertyPriority(a)),!0):!1\})\}function na(a,b)\{return t(function*()\{(yield S("background",a,b))||(yield S("background-image",a,b));(yield S("mask",a,b))||(yield S("-webkit-mask",a,b))||(yield S("mask-image",a,b))||(yield S("-webkit-mask-image",a,b))\})\}\
+function oa(a,b)\{return t(function*()\{const d=E(a,HTMLImageElement);if(d&&!H(a.src)||E(a,SVGImageElement)&&!H(a.href.baseVal))\{var c=d?a.src:a.href.baseVal,e=yield L(c,M[N(c).toLowerCase()]||"",b);yield new Promise((f,g)=>\{a.onload=f;a.onerror=b.m?(...k)=>\{try\{f(b.m(...k))\}catch(m)\{g(m)\}\}:g;a.decode&&(a.decode=f);a.loading==="lazy"&&(a.loading="eager");d?(a.srcset="",a.src=e):a.href.baseVal=e\})\}\})\}\
+function pa(a,b)\{return t(function*()\{const d=w(a.childNodes).map(c=>T(c,b));yield Promise.all(d).then(()=>a)\})\}function T(a,b)\{return t(function*()\{E(a,Element)&&(yield na(a,b),yield oa(a,b),yield pa(a,b))\})\};const U=\{\};function V(a)\{return t(function*()\{var b=U[a];if(b!=null)return b;b=yield(yield fetch(a)).text();b=\{url:a,cssText:b\};return U[a]=b\})\}function W(a,b)\{return t(function*()\{let d=a.cssText;const c=/url\\(["']?([^"')]+)["']?\\)/g,e=(d.match(/url\\([^)]+\\)/g)||[]).map(f=>t(function*()\{let g=f.replace(c,"$1");g.startsWith("https://")||(g=(new URL(g,a.url)).href);return I(g,b.i,(\{result:k\})=>\{d=d.replace(f,`url($\{k\})`);return[f,k]\})\}));return Promise.all(e).then(()=>d)\})\}\
+function X(a)\{if(a==null)return[];const b=[];a=a.replace(/(\\/\\*[\\s\\S]*?\\*\\/)/gi,"");for(var d=RegExp("((@.*?keyframes [\\\\s\\\\S]*?)\{([\\\\s\\\\S]*?\}\\\\s*?)\})","gi");;)\{var c=d.exec(a);if(c===null)break;b.push(c[0])\}a=a.replace(d,"");d=/@import[\\s\\S]*?url\\([^)]*\\)[\\s\\S]*?;/gi;for(c=RegExp("((\\\\s*?(?:\\\\/\\\\*[\\\\s\\\\S]*?\\\\*\\\\/)?\\\\s*?@media[\\\\s\\\\S]*?)\{([\\\\s\\\\S]*?)\}\\\\s*?\})|(([\\\\s\\\\S]*?)\{([\\\\s\\\\S]*?)\})","gi");;)\{let e=d.exec(a);if(e===null)if(e=c.exec(a),e===null)break;else d.lastIndex=c.lastIndex;else c.lastIndex=\
+d.lastIndex;b.push(e[0])\}return b\}\
+function qa(a,b)\{return t(function*()\{const d=[],c=[];a.forEach(e=>\{if("cssRules"in e)try\{w(e.cssRules||[]).forEach((f,g)=>\{if(f.type===CSSRule.IMPORT_RULE)\{let k=g+1;f=V(f.href).then(m=>W(m,b)).then(m=>X(m).forEach(q=>\{try\{e.insertRule(q,q.startsWith("@import")?k+=1:e.cssRules.length)\}catch(Da)\{\}\})).catch(()=>\{\});c.push(f)\}\})\}catch(f)\{const g=a.find(k=>k.href==null)||document.styleSheets[0];e.href!=null&&c.push(V(e.href).then(k=>W(k,b)).then(k=>X(k).forEach(m=>\{g.insertRule(m,g.cssRules.length)\})).catch(()=>\
+\{\}))\}\});return Promise.all(c).then(()=>\{a.forEach(e=>\{if("cssRules"in e)try\{w(e.cssRules||[]).forEach(f=>\{d.push(f)\})\}catch(f)\{\}\});return d\})\})\}function ra(a)\{return a.filter(b=>b.type===CSSRule.FONT_FACE_RULE).filter(b=>b.style.getPropertyValue("src").search(Q)!==-1)\}function sa(a,b)\{return t(function*()\{if(a.ownerDocument==null)throw Error("Provided element is not within a Document");var d=w(a.ownerDocument.styleSheets);d=yield qa(d,b);return ra(d)\})\}\
+function ta(a)\{function b(c)\{(c.style.fontFamily||getComputedStyle(c).fontFamily).split(",").forEach(e=>\{d.add(e.trim().replace(/["']/g,""))\});Array.from(c.children).forEach(e=>\{e instanceof HTMLElement&&b(e)\})\}const d=new Set;b(a);return d\}function ua(a,b)\{return t(function*()\{const d=yield sa(a,b),c=ta(a);return(yield Promise.all(d.filter(e=>c.has(e.style.fontFamily.trim().replace(/["']/g,""))).map(e=>R(e.cssText,e.parentStyleSheet?e.parentStyleSheet.href:null,b)))).join("\\n")\})\}\
+function va(a,b)\{return t(function*()\{const d=b.j!=null?b.j:b.K?null:yield ua(a,b);if(d)\{const c=document.createElement("style");c.appendChild(document.createTextNode(d));a.firstChild?a.insertBefore(c,a.firstChild):a.appendChild(c)\}\})\};function wa(a,b=\{\})\{return t(function*()\{const \{width:d,height:c\}=A(a,b),e=yield P(a,b,!0);yield va(e,b);yield T(e,b);u(e,b);return yield D(e,d,c)\})\}\
+function xa(a,b=\{\})\{return t(function*()\{const \{width:d,height:c\}=A(a,b);var e=yield wa(a,b);e=yield B(e);const f=document.createElement("canvas"),g=f.getContext("2d"),k=b.G||window.devicePixelRatio||1,m=b.h||d,q=b.g||c;f.width=m*k;f.height=q*k;!b.J&&(f.width>16384||f.height>16384)&&(f.width>16384&&f.height>16384?f.width>f.height?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=16384):f.width>16384?(f.height*=16384/f.width,f.width=16384):(f.width*=16384/f.height,f.height=\
+16384));f.style.width=`$\{m\}`;f.style.height=`$\{q\}`;b.backgroundColor&&(g.fillStyle=b.backgroundColor,g.fillRect(0,0,f.width,f.height));g.drawImage(e,0,0,f.width,f.height);return f\})\}function ya(a,b=\{\})\{return t(function*()\{return(yield xa(a,b)).toDataURL()\})\};const za=["gemini.google.com","corp.google.com","proxy.googlers.com"];function Y()\{return document.body.querySelectorAll('[class*="animate"]').length>0\}function Z(a)\{return t(function*()\{try\{return yield ya(a,\{h:a.offsetWidth,g:a.offsetHeight\})\}catch(d)\{var b=a.offsetHeight;const c=document.createElement("canvas");c.width=a.offsetWidth;c.height=b;return c.toDataURL("image/png")\}\})\}\
+function Aa()\{return t(function*()\{const a=document.body.offsetWidth,b=document.body.offsetHeight,d=document.body.cloneNode(!0);d.querySelectorAll('[class*="animate"]').forEach(c=>\{c.classList.remove(...Array.from(c.classList).filter(e=>e.startsWith("animate")))\});d.style.width=`$\{a\}px`;d.style.height=`$\{b\}px`;return d\})\}\
+function Ba(a)\{return t(function*()\{let b=document.body;if(Y())\{var d=yield Aa();b=d;document.body.appendChild(d)\}d=yield Z(b);Y()&&document.body.removeChild(b);window.parent.postMessage(\{type:"SEND_SCREENSHOT",image:d,topOffset:document.documentElement.scrollTop\},a.origin)\})\}function Ca(a)\{return t(function*()\{const b=\{type:"SEND_SCREENSHOT_FOR_DATA_VISUALIZATION",image:yield Z(document.body),topOffset:0\};window.parent.postMessage(b,a.origin)\})\}\
+window.addEventListener("message",a=>t(function*()\{if(za.some(d=>a.origin.includes(d)))\{var b=a.data;b&&(b.type==="MAKE_SCREENSHOT"&&(yield Ba(a)),b.type==="MAKE_SCREENSHOT_FOR_DATA_VISUALIZATION"&&(yield Ca(a)))\}\}));\
+</script><script>(function() \{\
+  // Ensure this script is executed only once\
+  if (window.firebaseAuthBridgeScriptLoaded) \{\
+    return;\
+  \}\
+  window.firebaseAuthBridgeScriptLoaded = true;\
+\
+  let nextTokenPromiseId = 0;\
+\
+  // Stores \{ resolve, reject \} for ongoing token requests\
+  const pendingTokenPromises = \{\};\
+\
+  // Listen for messages from the Host Application\
+  window.addEventListener('message', function(event) \{\
+\
+    const messageData = event.data;\
+\
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') \{\
+      const \{ success, token, error, promiseId \} = messageData ?? \{\};\
+      if (pendingTokenPromises[promiseId]) \{\
+        if (success) \{\
+          pendingTokenPromises[promiseId].resolve(token);\
+        \} else \{\
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));\
+        \}\
+        delete pendingTokenPromises[promiseId];\
+      \}\
+    \}\
+  \});\
+\
+  // Expose a function for the Generated App to request a new Firebase token\
+  window.requestNewFirebaseToken = function() \{\
+    const currentPromiseId = nextTokenPromiseId++;\
+    const promise = new Promise((resolve, reject) => \{\
+      pendingTokenPromises[currentPromiseId] = \{ resolve, reject \};\
+    \});\
+    if (window.parent && window.parent !== window) \{\
+      window.parent.postMessage(\{\
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',\
+        promiseId: currentPromiseId\
+      \}, '*');\
+    \} else \{\
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));\
+      delete pendingTokenPromises[currentPromiseId];\
+    \}\
+    return promise;\
+  \};\
+\})();</script><script>\
+let realOriginalGetUserMedia = null;\
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) \{\
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);\
+\}\
+\
+(function() \{\
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) \{\
+    try \{\
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', \{\
+        get: function() \{\
+          return undefined; // Or throw an error\
+        \},\
+        configurable: false\
+      \});\
+    \} catch (error) \{\
+      console.error("Error defining prototype getter:", error);\
+    \}\
+  \}\
+\})();\
+\
+(function() \{\
+  const pendingMediaResolvers = \{\};\
+  let nextMediaPromiseId = 0;\
+\
+  function requestMediaPermissions(constraints) \{\
+    const mediaPromiseId = nextMediaPromiseId++;\
+    const promise = new Promise((resolve, reject) => \{\
+      pendingMediaResolvers[mediaPromiseId] = (granted) => \{\
+        delete pendingMediaResolvers[mediaPromiseId];\
+        resolve(granted);\
+      \};\
+    \});\
+\
+    window.parent.postMessage(\{\
+      type: 'requestMediaPermission',\
+      constraints: constraints,\
+      promiseId: mediaPromiseId,\
+    \}, '*');\
+\
+    return promise;\
+  \}\
+\
+  let originalGetUserMedia = realOriginalGetUserMedia;\
+\
+  function interceptGetUserMedia() \{\
+    if (navigator.mediaDevices) \{\
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', \{\
+        value: function(constraints) \{\
+          return requestMediaPermissions(constraints).then((granted) => \{\
+            if (granted) \{\
+              if (originalGetUserMedia) \{\
+                return originalGetUserMedia(constraints);\
+              \} else \{\
+                throw new Error("Original getUserMedia not available.");\
+              \}\
+            \} else \{\
+              throw new DOMException('Permission denied', 'NotAllowedError');\
+            \}\
+          \});\
+        \},\
+        writable: false,\
+        configurable: false\
+      \});\
+    \}\
+  \}\
+\
+  interceptGetUserMedia();\
+\
+  const observer = new MutationObserver(function(mutationsList, observer) \{\
+    for (const mutation of mutationsList) \{\
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) \{\
+        interceptGetUserMedia();\
+      \} else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) \{\
+        interceptGetUserMedia();\
+      \} else if (mutation.type === 'childList' && mutation.addedNodes) \{\
+        mutation.addedNodes.forEach(node => \{\
+          if (node === navigator.mediaDevices) \{\
+            interceptGetUserMedia();\
+          \}\
+        \});\
+      \}\
+    \}\
+  \});\
+\
+  function interceptSpeechRecognition() \{\
+    if (!window.SpeechRecognition && !window.webkitSpeechRecognition) \{\
+      return;\
+    \}\
+\
+    const OriginalSpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;\
+\
+    const SpeechRecognitionWrapper = function(...args) \{\
+      const recognizer = new OriginalSpeechRecognition(...args);\
+      const originalStart = recognizer.start.bind(recognizer);\
+\
+      recognizer.start = function() \{\
+        requestMediaPermissions(\{ audio: true \}).then(granted => \{\
+          if (granted) \{\
+            originalStart();\
+          \} else \{\
+            const errorEvent = new SpeechRecognitionErrorEvent('error');\
+            errorEvent.error = 'not-allowed'; // This is the standard error for permission denial.\
+            recognizer.dispatchEvent(errorEvent);\
+          \}\
+        \});\
+      \};\
+\
+      return recognizer;\
+    \};\
+\
+    SpeechRecognitionWrapper.prototype = OriginalSpeechRecognition.prototype;\
+    SpeechRecognitionWrapper.prototype.constructor = SpeechRecognitionWrapper;\
+\
+    if (window.SpeechRecognition) \{\
+      window.SpeechRecognition = SpeechRecognitionWrapper;\
+    \}\
+    if (window.webkitSpeechRecognition) \{\
+      window.webkitSpeechRecognition = SpeechRecognitionWrapper;\
+    \}\
+  \}\
+\
+  interceptSpeechRecognition();\
+\
+  window.addEventListener('message', function(event) \{\
+    if (event.data) \{\
+      if (event.data.type === 'resolveMediaPermission') \{\
+        const \{ promiseId, granted \} = event.data;\
+        if (pendingMediaResolvers[promiseId]) \{\
+          pendingMediaResolvers[promiseId](granted);\
+        \}\
+      \}\
+    \}\
+  \});\
+\
+\})();</script><script>((function(modelInformation) \{\
+  const originalFetch = window.fetch;\
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.\
+  let googleLlmBaseApiUrls = [\
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',\
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',\
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',\
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',\
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageEditModelName + ':generateContent',\
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageTransformModelName + ':generateContent',\
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',\
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',\
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.ttsModelName + ':generateContent',\
+  ];\
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => \{\
+    googleLlmBaseApiUrls.push(\
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',\
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',\
+    );\
+  \});\
+  modelInformation.deprecatedImageModelNames.forEach((modelName) => \{\
+    googleLlmBaseApiUrls.push(\
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predict',\
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':predictLongRunning',\
+    );\
+  \});\
+\
+  const pendingFetchResolvers = \{\};\
+  let nextPromiseId = 0;\
+\
+  function handleStringInput(input, optionsArgument) \{\
+    const actualUrl = input;\
+    const fetchCallArgs = [actualUrl, optionsArgument];\
+    const effectiveOptions = optionsArgument || \{\};\
+    const bodyForApiKeyCheck = effectiveOptions.body;\
+    const bodyForPostMessage = effectiveOptions.body;\
+    return \{ actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage \};\
+  \}\
+\
+  function handleRequestInput(input, optionsArgument) \{\
+    const actualUrl = input.url;\
+    const fetchCallArgs = [input, optionsArgument];\
+    const effectiveOptions = \{ method: input.method, headers: new Headers(input.headers) \};\
+    let bodyForApiKeyCheck;\
+    let bodyForPostMessage;\
+\
+    if (optionsArgument) \{\
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;\
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);\
+      if ('body' in optionsArgument) \{\
+        bodyForApiKeyCheck = optionsArgument.body;\
+        bodyForPostMessage = optionsArgument.body;\
+      \} else \{\
+        bodyForApiKeyCheck = undefined;\
+        bodyForPostMessage = input.body;\
+      \}\
+    \} else \{\
+      bodyForApiKeyCheck = undefined;\
+      bodyForPostMessage = input.body;\
+    \}\
+    return \{ actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage \};\
+  \}\
+\
+  window.fetch = function(input, optionsArgument) \{\
+    let actualUrl;\
+    let fetchCallArgs;\
+    let effectiveOptions = \{\};\
+    let bodyForApiKeyCheck;\
+    let bodyForPostMessage;\
+\
+    if (typeof input === 'string') \{\
+      (\{actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage\} = handleStringInput(input, optionsArgument));\
+    \} else if (input instanceof Request) \{\
+      (\{actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage\} = handleRequestInput(input, optionsArgument));\
+    \} else \{\
+      return originalFetch.apply(window, [input, optionsArgument]);\
+    \}\
+\
+    effectiveOptions.method = effectiveOptions.method || 'GET';\
+    if (!effectiveOptions.headers) \{\
+      effectiveOptions.headers = new Headers();\
+    \}\
+\
+\
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) \{\
+      let apiKeyIsNull = true;\
+\
+      const regex = new RegExp("models/([^:]+)");\
+      const modelNameMatch = actualUrl.match(regex);\
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';\
+\
+\
+      try \{\
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing\
+        const apiKeyParam = urlObject.searchParams.get('key');\
+        if (apiKeyParam) \{\
+          apiKeyIsNull = false;\
+        \}\
+      \} catch (e) \{\
+        // Continue checks even if URL parsing fails\
+      \}\
+\
+      if (apiKeyIsNull && effectiveOptions.headers) \{\
+        const h = new Headers(effectiveOptions.headers);\
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');\
+        if (apiKeyHeaderValue) \{\
+          apiKeyIsNull = false;\
+          return originalFetch.apply(window, fetchCallArgs);\
+        \}\
+      \}\
+\
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') \{\
+        try \{\
+          const bodyData = JSON.parse(bodyForApiKeyCheck);\
+          if (bodyData && bodyData.apiKey) \{\
+            apiKeyIsNull = false;\
+            return originalFetch.apply(window, fetchCallArgs);\
+          \}\
+        \} catch (e) \{\
+          // Ignore JSON parsing errors\
+        \}\
+      \}\
+\
+      if(apiKeyIsNull) \{\
+        const promiseId = nextPromiseId++;\
+        const promise = new Promise((resolve) => \{\
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => \{\
+            delete pendingFetchResolvers[promiseId];\
+            resolve(resolvedResponse);\
+          \};\
+        \});\
+\
+        let serializedBodyForPostMessage;\
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) \{\
+            serializedBodyForPostMessage = bodyForPostMessage;\
+        \} else if (bodyForPostMessage instanceof ReadableStream) \{\
+            serializedBodyForPostMessage = null;\
+        \} else \{\
+            try \{\
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);\
+            \} catch (e) \{\
+                serializedBodyForPostMessage = null;\
+            \}\
+        \}\
+\
+        const messageOptions = \{\
+            method: effectiveOptions.method,\
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),\
+            body: serializedBodyForPostMessage\
+        \};\
+\
+        window.parent.postMessage(\{\
+          type: 'requestFetch',\
+          url: actualUrl,\
+          modelName: modelName,\
+          options: messageOptions,\
+          promiseId: promiseId,\
+        \}, '*');\
+\
+        return promise;\
+      \}\
+      return originalFetch.apply(window, fetchCallArgs);\
+    \}\
+    return originalFetch.apply(window, fetchCallArgs);\
+  \};\
+\
+  window.addEventListener('message', function(event) \{\
+    if (event.data && event.data.type === 'resolveFetch') \{\
+      const \{ promiseId, response \} = event.data;\
+      if (pendingFetchResolvers[promiseId]) \{\
+        try \{\
+          const reconstructedResponse = new Response(response.body, \{\
+            status: response.status,\
+            statusText: response.statusText,\
+            headers: new Headers(response.headers),\
+          \});\
+          pendingFetchResolvers[promiseId](reconstructedResponse);\
+        \} catch (error) \{\
+          pendingFetchResolvers[promiseId](new Response(null, \{ status: 500, statusText: "Interceptor Response Reconstruction Error" \}));\
+        \}\
+      \}\
+    \}\
+  \});\
+\
+\}))(\{"textModelName":"gemini-2.5-flash-preview-09-2025","imageModelName":"imagen-4.0-generate-001","imageEditModelName":"gemini-2.5-flash-image-preview","imageTransformModelName":"gemini-3-pro-image-preview-11-2025","videoModelName":"veo-2.0-generate-001","ttsModelName":"gemini-2.5-flash-preview-tts","deprecatedTextModelNames":["gemini-2.0-flash","gemini-2.5-flash-preview-04-17","gemini-2.5-flash-preview-05-20"],"deprecatedImageModelNames":["imagen-3.0-generate-001","imagen-3.0-generate-002"]\})</script><script>(function() \{\
+  const originalConsoleLog = console.log;\
+  const originalConsoleError = console.error;\
+\
+    /**\
+   * Normalizes an error event or a promise rejection reason into a structured error object.\
+   * @param \{*\} errorEventOrReason The error object or reason.\
+   * @return \{object\} Structured error data \{ message, name, stack \}.\
+   */\
+  function getErrorObject(errorEventOrReason) \{\
+    if (errorEventOrReason instanceof Error) \{\
+      return \{\
+        message: errorEventOrReason.message,\
+        name: errorEventOrReason.name,\
+        stack: errorEventOrReason.stack,\
+      \};\
+    \}\
+    // Fallback for non-Error objects.\
+    try \{\
+      return \{\
+        message: JSON.stringify(errorEventOrReason),\
+        name: 'UnknownErrorType',\
+        stack: null,\
+      \};\
+    \} catch (e) \{\
+      return \{\
+        message: String(errorEventOrReason),\
+        name: 'UnknownErrorTypeNonStringifiable',\
+        stack: null,\
+      \};\
+    \}\
+  \}\
+\
+  /**\
+   * Converts an array of arguments (from log/error) into a single string.\
+   * Handles Error objects specially to include their message and stack.\
+   * @param \{Array<*>\} args - Arguments passed to console methods.\
+   * @return \{string\} A string representation of the arguments.\
+   */\
+  function stringifyArgs(args) \{\
+    return args\
+      .map((arg) => \{\
+        if (arg instanceof Error) \{\
+          const \{message, stack\} = arg;\
+          return `Error: $\{message\}$\{stack ? ('\\nStack: ' + stack) : ''\}`;\
+        \}\
+        if (typeof arg === 'object' && arg !== null) \{\
+          try \{\
+            return JSON.stringify(arg);\
+          \} catch (error) \{\
+            return '[Circular Object]';\
+          \}\
+        \} else \{\
+          return String(arg);\
+        \}\
+      \})\
+      .join(' ');\
+  \}\
+\
+  console.log = function(...args) \{\
+    const logString = stringifyArgs(args);\
+    window.parent.postMessage(\{ type: 'log', message: logString \}, '*');\
+    originalConsoleLog.apply(console, args);\
+  \};\
+\
+  console.error = function(...args) \{\
+    let errorData;\
+    if (args.length > 0 && args[0] instanceof Error) \{\
+      const err = args[0];\
+      // If the first arg is an Error, capture its details.\
+      errorData = \{\
+        type: 'error',\
+        source: 'CONSOLE_ERROR',\
+        ...getErrorObject(err),\
+        rawArgsString: stringifyArgs(args.slice(1)),\
+        timestamp: new Date().toISOString(),\
+      \};\
+    \} else \{\
+      // If not an Error object, treat all args as a general error message.\
+      errorData = \{\
+        type: 'error',\
+        source: 'CONSOLE_ERROR',\
+        message: stringifyArgs(args),\
+        name: 'ConsoleLoggedError',\
+        stack: null,\
+        timestamp: new Date().toISOString(),\
+      \};\
+    \}\
+    window.parent.postMessage(errorData, '*');\
+    originalConsoleError.apply(console, args);\
+  \};\
+\
+  // Listen for global unhandled synchronous errors.\
+  window.addEventListener('error', function(event) \{\
+    const errorDetails = event.error ? getErrorObject(event.error) : \{\
+      message: event.message,\
+      name: 'GlobalError',\
+      stack: null,\
+      filename: event.filename,\
+      lineno: event.lineno,\
+      colno: event.colno,\
+    \};\
+\
+    window.parent.postMessage(\{\
+      type: 'error',\
+      source: 'global',\
+      ...errorDetails,\
+      message: errorDetails.message || event.message,\
+      timestamp: new Date().toISOString(),\
+    \}, '*');\
+  \});\
+\
+  // Listen for unhandled promise rejections (asynchronous errors).\
+  window.addEventListener('unhandledrejection', function(event) \{\
+    const errorDetails = getErrorObject(event.reason);\
+\
+    window.parent.postMessage(\{\
+      type: 'error',\
+      source: 'unhandledrejection',\
+      ...errorDetails,\
+      message: errorDetails.message || 'Unhandled Promise Rejection',\
+      timestamp: new Date().toISOString(),\
+    \}, '*');\
+  \});\
+\
+\})();</script>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>NH90 TOA Extension Impact Calculator</title>\
+    <!-- Tailwind CSS for styling -->\
+    <script src="https://cdn.tailwindcss.com/3.4.1"></script>\
+    \
+    <!-- React and Prop-Types (required for Recharts UMD) -->\
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin="anonymous"></script>\
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin="anonymous"></script>\
+    <script src="https://unpkg.com/prop-types@15.8.1/prop-types.min.js" crossorigin="anonymous"></script>\
+    \
+    <!-- Recharts - Loaded after React and Prop-Types -->\
+    <script src="https://unpkg.com/recharts@2.12.7/umd/Recharts.js" crossorigin="anonymous"></script>\
+    \
+    <!-- Babel for JSX transformation -->\
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin="anonymous"></script>\
+    \
+    <style>\
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');\
+        body \{ font-family: 'Inter', sans-serif; \}\
+        input[type="range"]::-webkit-slider-thumb \{\
+            -webkit-appearance: none;\
+            appearance: none;\
+            width: 18px;\
+            height: 18px;\
+            background: #2563eb;\
+            cursor: pointer;\
+            border-radius: 50%;\
+            border: 2px solid white;\
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);\
+        \}\
+    </style>\
+<style>/* ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */*,::after,::before\{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb\}::after,::before\{--tw-content:''\}:host,html\{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent\}body\{margin:0;line-height:inherit\}hr\{height:0;color:inherit;border-top-width:1px\}abbr:where([title])\{-webkit-text-decoration:underline dotted;text-decoration:underline dotted\}h1,h2,h3,h4,h5,h6\{font-size:inherit;font-weight:inherit\}a\{color:inherit;text-decoration:inherit\}b,strong\{font-weight:bolder\}code,kbd,pre,samp\{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em\}small\{font-size:80%\}sub,sup\{font-size:75%;line-height:0;position:relative;vertical-align:baseline\}sub\{bottom:-.25em\}sup\{top:-.5em\}table\{text-indent:0;border-color:inherit;border-collapse:collapse\}button,input,optgroup,select,textarea\{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0\}button,select\{text-transform:none\}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit])\{-webkit-appearance:button;background-color:transparent;background-image:none\}:-moz-focusring\{outline:auto\}:-moz-ui-invalid\{box-shadow:none\}progress\{vertical-align:baseline\}::-webkit-inner-spin-button,::-webkit-outer-spin-button\{height:auto\}[type=search]\{-webkit-appearance:textfield;outline-offset:-2px\}::-webkit-search-decoration\{-webkit-appearance:none\}::-webkit-file-upload-button\{-webkit-appearance:button;font:inherit\}summary\{display:list-item\}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre\{margin:0\}fieldset\{margin:0;padding:0\}legend\{padding:0\}menu,ol,ul\{list-style:none;margin:0;padding:0\}dialog\{padding:0\}textarea\{resize:vertical\}input::placeholder,textarea::placeholder\{opacity:1;color:#9ca3af\}[role=button],button\{cursor:pointer\}:disabled\{cursor:default\}audio,canvas,embed,iframe,img,object,svg,video\{display:block;vertical-align:middle\}img,video\{max-width:100%;height:auto\}[hidden]:where(:not([hidden=until-found]))\{display:none\}*, ::before, ::after\{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: \}::backdrop\{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: \}.mx-auto\{margin-left:auto;margin-right:auto\}.mb-1\{margin-bottom:0.25rem\}.mb-2\{margin-bottom:0.5rem\}.mb-3\{margin-bottom:0.75rem\}.mb-4\{margin-bottom:1rem\}.mb-6\{margin-bottom:1.5rem\}.mb-8\{margin-bottom:2rem\}.mt-1\{margin-top:0.25rem\}.mt-12\{margin-top:3rem\}.block\{display:block\}.flex\{display:flex\}.grid\{display:grid\}.h-2\{height:0.5rem\}.h-80\{height:20rem\}.min-h-screen\{min-height:100vh\}.w-full\{width:100%\}.max-w-2xl\{max-width:42rem\}.max-w-7xl\{max-width:80rem\}.cursor-pointer\{cursor:pointer\}.appearance-none\{-webkit-appearance:none;appearance:none\}.grid-cols-1\{grid-template-columns:repeat(1, minmax(0, 1fr))\}.grid-cols-3\{grid-template-columns:repeat(3, minmax(0, 1fr))\}.flex-col\{flex-direction:column\}.items-center\{align-items:center\}.justify-between\{justify-content:space-between\}.gap-2\{gap:0.5rem\}.gap-3\{gap:0.75rem\}.gap-4\{gap:1rem\}.gap-8\{gap:2rem\}.space-y-4 > :not([hidden]) ~ :not([hidden])\{--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))\}.space-y-6 > :not([hidden]) ~ :not([hidden])\{--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))\}.rounded\{border-radius:0.25rem\}.rounded-2xl\{border-radius:1rem\}.rounded-lg\{border-radius:0.5rem\}.border\{border-width:1px\}.border-t\{border-top-width:1px\}.border-red-300\{--tw-border-opacity:1;border-color:rgb(252 165 165 / var(--tw-border-opacity))\}.border-slate-100\{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity))\}.border-slate-200\{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity))\}.border-slate-800\{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity))\}.bg-slate-50\{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity))\}.bg-red-50\{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity))\}.bg-slate-100\{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity))\}.bg-slate-200\{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity))\}.bg-slate-900\{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity))\}.bg-white\{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))\}.p-2\{padding:0.5rem\}.p-4\{padding:1rem\}.p-5\{padding:1.25rem\}.p-6\{padding:1.5rem\}.p-8\{padding:2rem\}.px-3\{padding-left:0.75rem;padding-right:0.75rem\}.py-1\\.5\{padding-top:0.375rem;padding-bottom:0.375rem\}.py-2\{padding-top:0.5rem;padding-bottom:0.5rem\}.pt-4\{padding-top:1rem\}.pt-8\{padding-top:2rem\}.text-center\{text-align:center\}.font-mono\{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace\}.text-2xl\{font-size:1.5rem;line-height:2rem\}.text-\\[10px\\]\{font-size:10px\}.text-lg\{font-size:1.125rem;line-height:1.75rem\}.text-sm\{font-size:0.875rem;line-height:1.25rem\}.text-xl\{font-size:1.25rem;line-height:1.75rem\}.text-xs\{font-size:0.75rem;line-height:1rem\}.font-bold\{font-weight:700\}.font-medium\{font-weight:500\}.font-semibold\{font-weight:600\}.uppercase\{text-transform:uppercase\}.leading-relaxed\{line-height:1.625\}.tracking-tight\{letter-spacing:-0.025em\}.text-blue-400\{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity))\}.text-blue-600\{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity))\}.text-blue-800\{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity))\}.text-green-600\{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity))\}.text-red-500\{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity))\}.text-red-600\{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity))\}.text-red-700\{--tw-text-opacity:1;color:rgb(185 28 28 / var(--tw-text-opacity))\}.text-slate-300\{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity))\}.text-slate-400\{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity))\}.text-slate-500\{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity))\}.text-slate-600\{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity))\}.text-slate-700\{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity))\}.text-slate-800\{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity))\}.text-slate-900\{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity))\}.text-white\{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))\}.shadow-lg\{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)\}.shadow-sm\{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)\}.outline-none\{outline:2px solid transparent;outline-offset:2px\}.transition-colors\{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms\}.hover\\:bg-slate-200:hover\{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity))\}.focus\\:border-blue-400:focus\{--tw-border-opacity:1;border-color:rgb(96 165 250 / var(--tw-border-opacity))\}.focus\\:border-blue-500:focus\{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity))\}@media (min-width: 768px)\{.md\\:grid-cols-3\{grid-template-columns:repeat(3, minmax(0, 1fr))\}.md\\:flex-row\{flex-direction:row\}.md\\:p-8\{padding:2rem\}.md\\:text-3xl\{font-size:1.875rem;line-height:2.25rem\}\}@media (min-width: 1024px)\{.lg\\:col-span-4\{grid-column:span 4 / span 4\}.lg\\:col-span-8\{grid-column:span 8 / span 8\}.lg\\:grid-cols-12\{grid-template-columns:repeat(12, minmax(0, 1fr))\}\}</style><script>"use strict";\
+\
+function _typeof(o) \{ "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) \{ return typeof o; \} : function (o) \{ return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; \}, _typeof(o); \}\
+function _toConsumableArray(r) \{ return _arrayWithoutHoles(r) || _iterableToArray(r) || _unsupportedIterableToArray(r) || _nonIterableSpread(); \}\
+function _nonIterableSpread() \{ throw new TypeError("Invalid attempt to spread non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); \}\
+function _iterableToArray(r) \{ if ("undefined" != typeof Symbol && null != r[Symbol.iterator] || null != r["@@iterator"]) return Array.from(r); \}\
+function _arrayWithoutHoles(r) \{ if (Array.isArray(r)) return _arrayLikeToArray(r); \}\
+function ownKeys(e, r) \{ var t = Object.keys(e); if (Object.getOwnPropertySymbols) \{ var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) \{ return Object.getOwnPropertyDescriptor(e, r).enumerable; \})), t.push.apply(t, o); \} return t; \}\
+function _objectSpread(e) \{ for (var r = 1; r < arguments.length; r++) \{ var t = null != arguments[r] ? arguments[r] : \{\}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) \{ _defineProperty(e, r, t[r]); \}) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) \{ Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); \}); \} return e; \}\
+function _defineProperty(e, r, t) \{ return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, \{ value: t, enumerable: !0, configurable: !0, writable: !0 \}) : e[r] = t, e; \}\
+function _toPropertyKey(t) \{ var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; \}\
+function _toPrimitive(t, r) \{ if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) \{ var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); \} return ("string" === r ? String : Number)(t); \}\
+function _slicedToArray(r, e) \{ return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); \}\
+function _nonIterableRest() \{ throw new TypeError("Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); \}\
+function _unsupportedIterableToArray(r, a) \{ if (r) \{ if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = \{\}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; \} \}\
+function _arrayLikeToArray(r, a) \{ (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; \}\
+function _iterableToArrayLimit(r, l) \{ var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) \{ var e, n, i, u, a = [], f = !0, o = !1; try \{ if (i = (t = t.call(r)).next, 0 === l) \{ if (Object(t) !== t) return; f = !1; \} else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); \} catch (r) \{ o = !0, n = r; \} finally \{ try \{ if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; \} finally \{ if (o) throw n; \} \} return a; \} \}\
+function _arrayWithHoles(r) \{ if (Array.isArray(r)) return r; \}\
+var _React = React,\
+  useState = _React.useState,\
+  useMemo = _React.useMemo;\
+\
+// Simple Inline SVG Icons for stability\
+var Icons = \{\
+  Calendar: function Calendar() \{\
+    return /*#__PURE__*/React.createElement("svg", \{\
+      xmlns: "http://www.w3.org/2000/svg",\
+      width: "24",\
+      height: "24",\
+      viewBox: "0 0 24 24",\
+      fill: "none",\
+      stroke: "currentColor",\
+      strokeWidth: "2",\
+      strokeLinecap: "round",\
+      strokeLinejoin: "round"\
+    \}, /*#__PURE__*/React.createElement("rect", \{\
+      width: "18",\
+      height: "18",\
+      x: "3",\
+      y: "4",\
+      rx: "2",\
+      ry: "2"\
+    \}), /*#__PURE__*/React.createElement("line", \{\
+      x1: "16",\
+      x2: "16",\
+      y1: "2",\
+      y2: "6"\
+    \}), /*#__PURE__*/React.createElement("line", \{\
+      x1: "8",\
+      x2: "8",\
+      y1: "2",\
+      y2: "6"\
+    \}), /*#__PURE__*/React.createElement("line", \{\
+      x1: "3",\
+      x2: "21",\
+      y1: "10",\
+      y2: "10"\
+    \}));\
+  \},\
+  Users: function Users() \{\
+    return /*#__PURE__*/React.createElement("svg", \{\
+      xmlns: "http://www.w3.org/2000/svg",\
+      width: "24",\
+      height: "24",\
+      viewBox: "0 0 24 24",\
+      fill: "none",\
+      stroke: "currentColor",\
+      strokeWidth: "2",\
+      strokeLinecap: "round",\
+      strokeLinejoin: "round"\
+    \}, /*#__PURE__*/React.createElement("path", \{\
+      d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"\
+    \}), /*#__PURE__*/React.createElement("circle", \{\
+      cx: "9",\
+      cy: "7",\
+      r: "4"\
+    \}), /*#__PURE__*/React.createElement("path", \{\
+      d: "M22 21v-2a4 4 0 0 0-3-3.87"\
+    \}), /*#__PURE__*/React.createElement("path", \{\
+      d: "M16 3.13a4 4 0 0 1 0 7.75"\
+    \}));\
+  \},\
+  TrendingUp: function TrendingUp() \{\
+    return /*#__PURE__*/React.createElement("svg", \{\
+      xmlns: "http://www.w3.org/2000/svg",\
+      width: "24",\
+      height: "24",\
+      viewBox: "0 0 24 24",\
+      fill: "none",\
+      stroke: "currentColor",\
+      strokeWidth: "2",\
+      strokeLinecap: "round",\
+      strokeLinejoin: "round"\
+    \}, /*#__PURE__*/React.createElement("polyline", \{\
+      points: "22 7 13.5 15.5 8.5 10.5 2 17"\
+    \}), /*#__PURE__*/React.createElement("polyline", \{\
+      points: "16 7 22 7 22 13"\
+    \}));\
+  \},\
+  AlertTriangle: function AlertTriangle() \{\
+    return /*#__PURE__*/React.createElement("svg", \{\
+      xmlns: "http://www.w3.org/2000/svg",\
+      width: "24",\
+      height: "24",\
+      viewBox: "0 0 24 24",\
+      fill: "none",\
+      stroke: "currentColor",\
+      strokeWidth: "2",\
+      strokeLinecap: "round",\
+      strokeLinejoin: "round"\
+    \}, /*#__PURE__*/React.createElement("path", \{\
+      d: "m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"\
+    \}), /*#__PURE__*/React.createElement("line", \{\
+      x1: "12",\
+      x2: "12",\
+      y1: "9",\
+      y2: "13"\
+    \}), /*#__PURE__*/React.createElement("line", \{\
+      x1: "12",\
+      x2: "12.01",\
+      y1: "17",\
+      y2: "17"\
+    \}));\
+  \},\
+  DollarSign: function DollarSign() \{\
+    return /*#__PURE__*/React.createElement("svg", \{\
+      xmlns: "http://www.w3.org/2000/svg",\
+      width: "24",\
+      height: "24",\
+      viewBox: "0 0 24 24",\
+      fill: "none",\
+      stroke: "currentColor",\
+      strokeWidth: "2",\
+      strokeLinecap: "round",\
+      strokeLinejoin: "round"\
+    \}, /*#__PURE__*/React.createElement("line", \{\
+      x1: "12",\
+      x2: "12",\
+      y1: "2",\
+      y2: "22"\
+    \}), /*#__PURE__*/React.createElement("path", \{\
+      d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"\
+    \}));\
+  \},\
+  Clock: function Clock() \{\
+    return /*#__PURE__*/React.createElement("svg", \{\
+      xmlns: "http://www.w3.org/2000/svg",\
+      width: "24",\
+      height: "24",\
+      viewBox: "0 0 24 24",\
+      fill: "none",\
+      stroke: "currentColor",\
+      strokeWidth: "2",\
+      strokeLinecap: "round",\
+      strokeLinejoin: "round"\
+    \}, /*#__PURE__*/React.createElement("circle", \{\
+      cx: "12",\
+      cy: "12",\
+      r: "10"\
+    \}), /*#__PURE__*/React.createElement("polyline", \{\
+      points: "12 6 12 12 16 14"\
+    \}));\
+  \},\
+  Copy: function Copy() \{\
+    return /*#__PURE__*/React.createElement("svg", \{\
+      xmlns: "http://www.w3.org/2000/svg",\
+      width: "16",\
+      height: "16",\
+      viewBox: "0 0 24 24",\
+      fill: "none",\
+      stroke: "currentColor",\
+      strokeWidth: "2",\
+      strokeLinecap: "round",\
+      strokeLinejoin: "round"\
+    \}, /*#__PURE__*/React.createElement("rect", \{\
+      width: "14",\
+      height: "14",\
+      x: "8",\
+      y: "8",\
+      rx: "2",\
+      ry: "2"\
+    \}), /*#__PURE__*/React.createElement("path", \{\
+      d: "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"\
+    \}));\
+  \}\
+\};\
+var App = function App() \{\
+  var RechartsLib = window.Recharts;\
+  var _useState = useState(false),\
+    _useState2 = _slicedToArray(_useState, 2),\
+    copied = _useState2[0],\
+    setCopied = _useState2[1];\
+  if (!RechartsLib) \{\
+    return /*#__PURE__*/React.createElement("div", \{\
+      className: "flex items-center justify-center min-h-screen"\
+    \}, /*#__PURE__*/React.createElement("div", \{\
+      className: "text-center p-8 bg-white rounded-xl shadow-lg"\
+    \}, /*#__PURE__*/React.createElement("h2", \{\
+      className: "text-red-600 font-bold text-xl mb-2"\
+    \}, "Loading Error"), /*#__PURE__*/React.createElement("p", \{\
+      className: "text-slate-600"\
+    \}, "The visualization library could not be loaded.")));\
+  \}\
+  var BarChart = RechartsLib.BarChart,\
+    Bar = RechartsLib.Bar,\
+    XAxis = RechartsLib.XAxis,\
+    YAxis = RechartsLib.YAxis,\
+    CartesianGrid = RechartsLib.CartesianGrid,\
+    Tooltip = RechartsLib.Tooltip,\
+    Legend = RechartsLib.Legend,\
+    ResponsiveContainer = RechartsLib.ResponsiveContainer;\
+  var _useState3 = useState(12),\
+    _useState4 = _slicedToArray(_useState3, 2),\
+    technicians = _useState4[0],\
+    setTechnicians = _useState4[1];\
+  var _useState5 = useState(150),\
+    _useState6 = _slicedToArray(_useState5, 2),\
+    hoursPerMonth = _useState6[0],\
+    setHoursPerMonth = _useState6[1];\
+  var _useState7 = useState(450),\
+    _useState8 = _slicedToArray(_useState7, 2),\
+    manHoursPerOverhaul = _useState8[0],\
+    setManHoursPerOverhaul = _useState8[1];\
+  var _useState9 = useState(25000),\
+    _useState0 = _slicedToArray(_useState9, 2),\
+    avgPartsCost = _useState0[0],\
+    setAvgPartsCost = _useState0[1];\
+  var _useState1 = useState(1.5),\
+    _useState10 = _slicedToArray(_useState1, 2),\
+    overtimePremium = _useState10[0],\
+    setOvertimePremium = _useState10[1];\
+  var _useState11 = useState(85),\
+    _useState12 = _slicedToArray(_useState11, 2),\
+    hourlyRate = _useState12[0],\
+    setHourlyRate = _useState12[1];\
+  var _useState13 = useState([\{\
+      month: 'Jan',\
+      units: 4\
+    \}, \{\
+      month: 'Feb',\
+      units: 3\
+    \}, \{\
+      month: 'Mar',\
+      units: 5\
+    \}, \{\
+      month: 'Apr',\
+      units: 4\
+    \}, \{\
+      month: 'May',\
+      units: 4\
+    \}, \{\
+      month: 'Jun',\
+      units: 3\
+    \}, \{\
+      month: 'Jul',\
+      units: 20\
+    \}, \{\
+      month: 'Aug',\
+      units: 18\
+    \}, \{\
+      month: 'Sep',\
+      units: 5\
+    \}, \{\
+      month: 'Oct',\
+      units: 4\
+    \}, \{\
+      month: 'Nov',\
+      units: 3\
+    \}, \{\
+      month: 'Dec',\
+      units: 4\
+    \}]),\
+    _useState14 = _slicedToArray(_useState13, 2),\
+    schedule = _useState14[0],\
+    setSchedule = _useState14[1];\
+  var totalAvailableHours = technicians * hoursPerMonth;\
+  var calculatedData = useMemo(function () \{\
+    return schedule.map(function (item) \{\
+      var requiredHours = item.units * manHoursPerOverhaul;\
+      var capacityGap = Math.max(0, requiredHours - totalAvailableHours);\
+      var overtimeCost = capacityGap * hourlyRate * overtimePremium;\
+      var utilization = totalAvailableHours > 0 ? requiredHours / totalAvailableHours * 100 : 0;\
+      var partsCost = item.units * avgPartsCost;\
+      return _objectSpread(_objectSpread(\{\}, item), \{\}, \{\
+        requiredHours: requiredHours,\
+        availableHours: totalAvailableHours,\
+        capacityGap: capacityGap,\
+        overtimeCost: overtimeCost,\
+        utilization: Math.round(utilization),\
+        partsCost: partsCost,\
+        totalFinancialImpact: overtimeCost + partsCost\
+      \});\
+    \});\
+  \}, [schedule, totalAvailableHours, manHoursPerOverhaul, hourlyRate, overtimePremium, avgPartsCost]);\
+  var totalOvertimeCost = calculatedData.reduce(function (acc, curr) \{\
+    return acc + curr.overtimeCost;\
+  \}, 0);\
+  var maxUtilization = Math.max.apply(Math, _toConsumableArray(calculatedData.map(function (d) \{\
+    return d.utilization;\
+  \})));\
+  var totalUnits = schedule.reduce(function (acc, curr) \{\
+    return acc + curr.units;\
+  \}, 0);\
+  var handleUnitChange = function handleUnitChange(index, value) \{\
+    var val = parseInt(value);\
+    var newSchedule = _toConsumableArray(schedule);\
+    newSchedule[index].units = isNaN(val) ? 0 : val;\
+    setSchedule(newSchedule);\
+  \};\
+  var handleCopyCode = function handleCopyCode() \{\
+    var code = document.documentElement.outerHTML;\
+    var textArea = document.createElement("textarea");\
+    textArea.value = code;\
+    document.body.appendChild(textArea);\
+    textArea.select();\
+    try \{\
+      document.execCommand('copy');\
+      setCopied(true);\
+      setTimeout(function () \{\
+        return setCopied(false);\
+      \}, 2000);\
+    \} catch (err) \{\
+      console.error('Fallback: Oops, unable to copy', err);\
+    \}\
+    document.body.removeChild(textArea);\
+  \};\
+  return /*#__PURE__*/React.createElement("div", \{\
+    className: "min-h-screen p-4 md:p-8 text-slate-900"\
+  \}, /*#__PURE__*/React.createElement("header", \{\
+    className: "max-w-7xl mx-auto mb-8"\
+  \}, /*#__PURE__*/React.createElement("div", \{\
+    className: "flex items-center gap-3 mb-2 text-blue-800"\
+  \}, /*#__PURE__*/React.createElement("span", \{\
+    className: "text-blue-600"\
+  \}, /*#__PURE__*/React.createElement(Icons.Calendar, null)), /*#__PURE__*/React.createElement("h1", \{\
+    className: "text-2xl md:text-3xl font-bold tracking-tight"\
+  \}, "NH90 TOA Extension Impact Calculator")), /*#__PURE__*/React.createElement("p", \{\
+    className: "text-slate-500 max-w-2xl"\
+  \}, "Logistical and economical analysis tool for MRO capacity planning at GKN Fokker Aerospace.")), /*#__PURE__*/React.createElement("main", \{\
+    className: "max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8"\
+  \}, /*#__PURE__*/React.createElement("section", \{\
+    className: "lg:col-span-4 space-y-6"\
+  \}, /*#__PURE__*/React.createElement("div", \{\
+    className: "bg-white p-6 rounded-2xl shadow-sm border border-slate-200"\
+  \}, /*#__PURE__*/React.createElement("h2", \{\
+    className: "flex items-center gap-2 font-semibold text-lg mb-4 text-slate-800"\
+  \}, /*#__PURE__*/React.createElement("span", \{\
+    className: "text-blue-600"\
+  \}, /*#__PURE__*/React.createElement(Icons.Users, null)), "MRO Capacity Settings"), /*#__PURE__*/React.createElement("div", \{\
+    className: "space-y-4"\
+  \}, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("label", \{\
+    className: "block text-sm font-medium text-slate-600 mb-1 font-semibold"\
+  \}, "Available Technicians"), /*#__PURE__*/React.createElement("input", \{\
+    type: "range",\
+    min: "1",\
+    max: "30",\
+    value: technicians,\
+    onChange: function onChange(e) \{\
+      return setTechnicians(parseInt(e.target.value));\
+    \},\
+    className: "w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer"\
+  \}), /*#__PURE__*/React.createElement("div", \{\
+    className: "flex justify-between text-xs mt-1 font-mono text-blue-600 font-bold"\
+  \}, technicians, " FTEs")), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("label", \{\
+    className: "block text-sm font-medium text-slate-600 mb-1 font-semibold"\
+  \}, "Man-Hours per Overhaul"), /*#__PURE__*/React.createElement("input", \{\
+    type: "number",\
+    value: manHoursPerOverhaul,\
+    onChange: function onChange(e) \{\
+      return setManHoursPerOverhaul(parseInt(e.target.value) || 0);\
+    \},\
+    className: "w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg outline-none focus:border-blue-500 transition-colors"\
+  \})), /*#__PURE__*/React.createElement("div", \{\
+    className: "pt-4 border-t border-slate-100 flex justify-between items-center"\
+  \}, /*#__PURE__*/React.createElement("span", \{\
+    className: "text-sm text-slate-600 font-medium"\
+  \}, "Total Hours/Month"), /*#__PURE__*/React.createElement("span", \{\
+    className: "font-bold text-blue-600"\
+  \}, totalAvailableHours, "h")))), /*#__PURE__*/React.createElement("div", \{\
+    className: "bg-white p-6 rounded-2xl shadow-sm border border-slate-200"\
+  \}, /*#__PURE__*/React.createElement("h2", \{\
+    className: "flex items-center gap-2 font-semibold text-lg mb-4 text-slate-800"\
+  \}, /*#__PURE__*/React.createElement("span", \{\
+    className: "text-green-600"\
+  \}, /*#__PURE__*/React.createElement(Icons.TrendingUp, null)), "Scenario: 2026 Units"), /*#__PURE__*/React.createElement("div", \{\
+    className: "grid grid-cols-3 gap-2"\
+  \}, schedule.map(function (item, idx) \{\
+    return /*#__PURE__*/React.createElement("div", \{\
+      key: item.month\
+    \}, /*#__PURE__*/React.createElement("label", \{\
+      className: "block text-[10px] uppercase font-bold text-slate-400"\
+    \}, item.month), /*#__PURE__*/React.createElement("input", \{\
+      type: "number",\
+      value: item.units,\
+      onChange: function onChange(e) \{\
+        return handleUnitChange(idx, e.target.value);\
+      \},\
+      className: "w-full p-2 text-center text-sm border rounded outline-none transition-colors ".concat(item.units > 10 ? 'bg-red-50 border-red-300 text-red-700 font-bold' : 'bg-slate-50 border-slate-200 focus:border-blue-400')\
+    \}));\
+  \})))), /*#__PURE__*/React.createElement("section", \{\
+    className: "lg:col-span-8 space-y-6"\
+  \}, /*#__PURE__*/React.createElement("div", \{\
+    className: "grid grid-cols-1 md:grid-cols-3 gap-4"\
+  \}, /*#__PURE__*/React.createElement("div", \{\
+    className: "bg-white p-5 rounded-2xl shadow-sm border border-slate-200"\
+  \}, /*#__PURE__*/React.createElement("div", \{\
+    className: "flex items-center gap-3 mb-3 text-red-500"\
+  \}, /*#__PURE__*/React.createElement(Icons.AlertTriangle, null), /*#__PURE__*/React.createElement("span", \{\
+    className: "text-sm font-medium text-slate-500"\
+  \}, "Max Utilization")), /*#__PURE__*/React.createElement("div", \{\
+    className: "text-2xl font-bold ".concat(maxUtilization > 100 ? 'text-red-600' : 'text-slate-900')\
+  \}, maxUtilization, "%")), /*#__PURE__*/React.createElement("div", \{\
+    className: "bg-white p-5 rounded-2xl shadow-sm border border-slate-200"\
+  \}, /*#__PURE__*/React.createElement("div", \{\
+    className: "flex items-center gap-3 mb-3 text-blue-600"\
+  \}, /*#__PURE__*/React.createElement(Icons.DollarSign, null), /*#__PURE__*/React.createElement("span", \{\
+    className: "text-sm font-medium text-slate-500"\
+  \}, "Overtime Cost")), /*#__PURE__*/React.createElement("div", \{\
+    className: "text-2xl font-bold"\
+  \}, "\\u20AC", totalOvertimeCost.toLocaleString())), /*#__PURE__*/React.createElement("div", \{\
+    className: "bg-white p-5 rounded-2xl shadow-sm border border-slate-200"\
+  \}, /*#__PURE__*/React.createElement("div", \{\
+    className: "flex items-center gap-3 mb-3 text-slate-600"\
+  \}, /*#__PURE__*/React.createElement(Icons.Clock, null), /*#__PURE__*/React.createElement("span", \{\
+    className: "text-sm font-medium text-slate-500"\
+  \}, "Total Units")), /*#__PURE__*/React.createElement("div", \{\
+    className: "text-2xl font-bold"\
+  \}, totalUnits))), /*#__PURE__*/React.createElement("div", \{\
+    className: "bg-white p-6 rounded-2xl shadow-sm border border-slate-200"\
+  \}, /*#__PURE__*/React.createElement("h3", \{\
+    className: "font-bold text-slate-800 mb-6"\
+  \}, "Workload vs Capacity Analysis"), /*#__PURE__*/React.createElement("div", \{\
+    className: "h-80 w-full",\
+    style: \{\
+      minHeight: '320px'\
+    \}\
+  \}, /*#__PURE__*/React.createElement(ResponsiveContainer, \{\
+    width: "100%",\
+    height: "100%"\
+  \}, /*#__PURE__*/React.createElement(BarChart, \{\
+    data: calculatedData,\
+    margin: \{\
+      top: 10,\
+      right: 10,\
+      left: 0,\
+      bottom: 0\
+    \}\
+  \}, /*#__PURE__*/React.createElement(CartesianGrid, \{\
+    strokeDasharray: "3 3",\
+    vertical: false,\
+    stroke: "#f1f5f9"\
+  \}), /*#__PURE__*/React.createElement(XAxis, \{\
+    dataKey: "month",\
+    axisLine: false,\
+    tickLine: false,\
+    tick: \{\
+      fill: '#94a3b8',\
+      fontSize: 12\
+    \}\
+  \}), /*#__PURE__*/React.createElement(YAxis, \{\
+    axisLine: false,\
+    tickLine: false,\
+    tick: \{\
+      fill: '#94a3b8',\
+      fontSize: 12\
+    \}\
+  \}), /*#__PURE__*/React.createElement(Tooltip, \{\
+    contentStyle: \{\
+      borderRadius: '8px',\
+      border: 'none',\
+      boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)'\
+    \}\
+  \}), /*#__PURE__*/React.createElement(Legend, \{\
+    verticalAlign: "top",\
+    align: "right",\
+    wrapperStyle: \{\
+      paddingBottom: '20px'\
+    \}\
+  \}), /*#__PURE__*/React.createElement(Bar, \{\
+    dataKey: "requiredHours",\
+    name: "Required Hours",\
+    fill: "#3b82f6",\
+    radius: [4, 4, 0, 0]\
+  \}), /*#__PURE__*/React.createElement(Bar, \{\
+    dataKey: "availableHours",\
+    name: "Standard Capacity",\
+    fill: "#e2e8f0",\
+    radius: [4, 4, 0, 0]\
+  \}))))), /*#__PURE__*/React.createElement("div", \{\
+    className: "bg-slate-900 text-white p-8 rounded-2xl shadow-lg border border-slate-800"\
+  \}, /*#__PURE__*/React.createElement("h4", \{\
+    className: "text-xl font-bold mb-3 flex items-center gap-2"\
+  \}, /*#__PURE__*/React.createElement("span", \{\
+    className: "text-blue-400"\
+  \}, /*#__PURE__*/React.createElement(Icons.TrendingUp, null)), "Strategic Impact Analysis"), /*#__PURE__*/React.createElement("p", \{\
+    className: "text-slate-300 text-sm leading-relaxed mb-4"\
+  \}, maxUtilization > 120 ? "CRITICAL: Workload exceeds capacity by ".concat(maxUtilization - 100, "% during peak months.") : "The current maintenance schedule is within manageable limits.")))), /*#__PURE__*/React.createElement("footer", \{\
+    className: "max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-200 text-slate-400 text-xs flex flex-col md:flex-row justify-between items-center gap-4"\
+  \}, /*#__PURE__*/React.createElement("div", \{\
+    className: "flex items-center gap-4"\
+  \}, /*#__PURE__*/React.createElement("span", null, "GKN Fokker Aerospace B.V."), /*#__PURE__*/React.createElement("button", \{\
+    onClick: handleCopyCode,\
+    className: "flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1.5 rounded-lg transition-colors font-medium"\
+  \}, /*#__PURE__*/React.createElement(Icons.Copy, null), copied ? 'Code Copied!' : 'Copy Code for Saving')), /*#__PURE__*/React.createElement("div", null, "Author: Oskay Celikkol \\u2022 500846077")));\
+\};\
+var root = ReactDOM.createRoot(document.getElementById('root'));\
+root.render(/*#__PURE__*/React.createElement(App, null));\
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfUmVhY3QiLCJSZWFjdCIsInVzZVN0YXRlIiwidXNlTWVtbyIsIkljb25zIiwiQ2FsZW5kYXIiLCJjcmVhdGVFbGVtZW50IiwieG1sbnMiLCJ3aWR0aCIsImhlaWdodCIsInZpZXdCb3giLCJmaWxsIiwic3Ryb2tlIiwic3Ryb2tlV2lkdGgiLCJzdHJva2VMaW5lY2FwIiwic3Ryb2tlTGluZWpvaW4iLCJ4IiwieSIsInJ4IiwicnkiLCJ4MSIsIngyIiwieTEiLCJ5MiIsIlVzZXJzIiwiZCIsImN4IiwiY3kiLCJyIiwiVHJlbmRpbmdVcCIsInBvaW50cyIsIkFsZXJ0VHJpYW5nbGUiLCJEb2xsYXJTaWduIiwiQ2xvY2siLCJDb3B5IiwiQXBwIiwiUmVjaGFydHNMaWIiLCJ3aW5kb3ciLCJSZWNoYXJ0cyIsIl91c2VTdGF0ZSIsIl91c2VTdGF0ZTIiLCJfc2xpY2VkVG9BcnJheSIsImNvcGllZCIsInNldENvcGllZCIsImNsYXNzTmFtZSIsIkJhckNoYXJ0IiwiQmFyIiwiWEF4aXMiLCJZQXhpcyIsIkNhcnRlc2lhbkdyaWQiLCJUb29sdGlwIiwiTGVnZW5kIiwiUmVzcG9uc2l2ZUNvbnRhaW5lciIsIl91c2VTdGF0ZTMiLCJfdXNlU3RhdGU0IiwidGVjaG5pY2lhbnMiLCJzZXRUZWNobmljaWFucyIsIl91c2VTdGF0ZTUiLCJfdXNlU3RhdGU2IiwiaG91cnNQZXJNb250aCIsInNldEhvdXJzUGVyTW9udGgiLCJfdXNlU3RhdGU3IiwiX3VzZVN0YXRlOCIsIm1hbkhvdXJzUGVyT3ZlcmhhdWwiLCJzZXRNYW5Ib3Vyc1Blck92ZXJoYXVsIiwiX3VzZVN0YXRlOSIsIl91c2VTdGF0ZTAiLCJhdmdQYXJ0c0Nvc3QiLCJzZXRBdmdQYXJ0c0Nvc3QiLCJfdXNlU3RhdGUxIiwiX3VzZVN0YXRlMTAiLCJvdmVydGltZVByZW1pdW0iLCJzZXRPdmVydGltZVByZW1pdW0iLCJfdXNlU3RhdGUxMSIsIl91c2VTdGF0ZTEyIiwiaG91cmx5UmF0ZSIsInNldEhvdXJseVJhdGUiLCJfdXNlU3RhdGUxMyIsIm1vbnRoIiwidW5pdHMiLCJfdXNlU3RhdGUxNCIsInNjaGVkdWxlIiwic2V0U2NoZWR1bGUiLCJ0b3RhbEF2YWlsYWJsZUhvdXJzIiwiY2FsY3VsYXRlZERhdGEiLCJtYXAiLCJpdGVtIiwicmVxdWlyZWRIb3VycyIsImNhcGFjaXR5R2FwIiwiTWF0aCIsIm1heCIsIm92ZXJ0aW1lQ29zdCIsInV0aWxpemF0aW9uIiwicGFydHNDb3N0IiwiX29iamVjdFNwcmVhZCIsImF2YWlsYWJsZUhvdXJzIiwicm91bmQiLCJ0b3RhbEZpbmFuY2lhbEltcGFjdCIsInRvdGFsT3ZlcnRpbWVDb3N0IiwicmVkdWNlIiwiYWNjIiwiY3VyciIsIm1heFV0aWxpemF0aW9uIiwiYXBwbHkiLCJfdG9Db25zdW1hYmxlQXJyYXkiLCJ0b3RhbFVuaXRzIiwiaGFuZGxlVW5pdENoYW5nZSIsImluZGV4IiwidmFsdWUiLCJ2YWwiLCJwYXJzZUludCIsIm5ld1NjaGVkdWxlIiwiaXNOYU4iLCJoYW5kbGVDb3B5Q29kZSIsImNvZGUiLCJkb2N1bWVudCIsImRvY3VtZW50RWxlbWVudCIsIm91dGVySFRNTCIsInRleHRBcmVhIiwiYm9keSIsImFwcGVuZENoaWxkIiwic2VsZWN0IiwiZXhlY0NvbW1hbmQiLCJzZXRUaW1lb3V0IiwiZXJyIiwiY29uc29sZSIsImVycm9yIiwicmVtb3ZlQ2hpbGQiLCJ0eXBlIiwibWluIiwib25DaGFuZ2UiLCJlIiwidGFyZ2V0IiwiaWR4Iiwia2V5IiwiY29uY2F0IiwidG9Mb2NhbGVTdHJpbmciLCJzdHlsZSIsIm1pbkhlaWdodCIsImRhdGEiLCJtYXJnaW4iLCJ0b3AiLCJyaWdodCIsImxlZnQiLCJib3R0b20iLCJzdHJva2VEYXNoYXJyYXkiLCJ2ZXJ0aWNhbCIsImRhdGFLZXkiLCJheGlzTGluZSIsInRpY2tMaW5lIiwidGljayIsImZvbnRTaXplIiwiY29udGVudFN0eWxlIiwiYm9yZGVyUmFkaXVzIiwiYm9yZGVyIiwiYm94U2hhZG93IiwidmVydGljYWxBbGlnbiIsImFsaWduIiwid3JhcHBlclN0eWxlIiwicGFkZGluZ0JvdHRvbSIsIm5hbWUiLCJyYWRpdXMiLCJvbkNsaWNrIiwicm9vdCIsIlJlYWN0RE9NIiwiY3JlYXRlUm9vdCIsImdldEVsZW1lbnRCeUlkIiwicmVuZGVyIl0sInNvdXJjZXMiOlsiSW5saW5lIEJhYmVsIHNjcmlwdCJdLCJzb3VyY2VzQ29udGVudCI6WyJcbiAgICAgICAgY29uc3QgeyB1c2VTdGF0ZSwgdXNlTWVtbyB9ID0gUmVhY3Q7XG5cbiAgICAgICAgLy8gU2ltcGxlIElubGluZSBTVkcgSWNvbnMgZm9yIHN0YWJpbGl0eVxuICAgICAgICBjb25zdCBJY29ucyA9IHtcbiAgICAgICAgICAgIENhbGVuZGFyOiAoKSA9PiAoXG4gICAgICAgICAgICAgICAgPHN2ZyB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCIgd2lkdGg9XCIyNFwiIGhlaWdodD1cIjI0XCIgdmlld0JveD1cIjAgMCAyNCAyNFwiIGZpbGw9XCJub25lXCIgc3Ryb2tlPVwiY3VycmVudENvbG9yXCIgc3Ryb2tlV2lkdGg9XCIyXCIgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCIgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiPjxyZWN0IHdpZHRoPVwiMThcIiBoZWlnaHQ9XCIxOFwiIHg9XCIzXCIgeT1cIjRcIiByeD1cIjJcIiByeT1cIjJcIi8+PGxpbmUgeDE9XCIxNlwiIHgyPVwiMTZcIiB5MT1cIjJcIiB5Mj1cIjZcIi8+PGxpbmUgeDE9XCI4XCIgeDI9XCI4XCIgeTE9XCIyXCIgeTI9XCI2XCIvPjxsaW5lIHgxPVwiM1wiIHgyPVwiMjFcIiB5MT1cIjEwXCIgeTI9XCIxMFwiLz48L3N2Zz5cbiAgICAgICAgICAgICksXG4gICAgICAgICAgICBVc2VyczogKCkgPT4gKFxuICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiIHdpZHRoPVwiMjRcIiBoZWlnaHQ9XCIyNFwiIHZpZXdCb3g9XCIwIDAgMjQgMjRcIiBmaWxsPVwibm9uZVwiIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiIHN0cm9rZVdpZHRoPVwiMlwiIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIj48cGF0aCBkPVwiTTE2IDIxdi0yYTQgNCAwIDAgMC00LTRINmE0IDQgMCAwIDAtNCA0djJcIi8+PGNpcmNsZSBjeD1cIjlcIiBjeT1cIjdcIiByPVwiNFwiLz48cGF0aCBkPVwiTTIyIDIxdi0yYTQgNCAwIDAgMC0zLTMuODdcIi8+PHBhdGggZD1cIk0xNiAzLjEzYTQgNCAwIDAgMSAwIDcuNzVcIi8+PC9zdmc+XG4gICAgICAgICAgICApLFxuICAgICAgICAgICAgVHJlbmRpbmdVcDogKCkgPT4gKFxuICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiIHdpZHRoPVwiMjRcIiBoZWlnaHQ9XCIyNFwiIHZpZXdCb3g9XCIwIDAgMjQgMjRcIiBmaWxsPVwibm9uZVwiIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiIHN0cm9rZVdpZHRoPVwiMlwiIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIj48cG9seWxpbmUgcG9pbnRzPVwiMjIgNyAxMy41IDE1LjUgOC41IDEwLjUgMiAxN1wiLz48cG9seWxpbmUgcG9pbnRzPVwiMTYgNyAyMiA3IDIyIDEzXCIvPjwvc3ZnPlxuICAgICAgICAgICAgKSxcbiAgICAgICAgICAgIEFsZXJ0VHJpYW5nbGU6ICgpID0+IChcbiAgICAgICAgICAgICAgICA8c3ZnIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIiB3aWR0aD1cIjI0XCIgaGVpZ2h0PVwiMjRcIiB2aWV3Qm94PVwiMCAwIDI0IDI0XCIgZmlsbD1cIm5vbmVcIiBzdHJva2U9XCJjdXJyZW50Q29sb3JcIiBzdHJva2VXaWR0aD1cIjJcIiBzdHJva2VMaW5lY2FwPVwicm91bmRcIiBzdHJva2VMaW5lam9pbj1cInJvdW5kXCI+PHBhdGggZD1cIm0yMS43MyAxOC04LTE0YTIgMiAwIDAgMC0zLjQ4IDBsLTggMTRBMiAyIDAgMCAwIDQgMjFoMTZhMiAyIDAgMCAwIDEuNzMtM1pcIi8+PGxpbmUgeDE9XCIxMlwiIHgyPVwiMTJcIiB5MT1cIjlcIiB5Mj1cIjEzXCIvPjxsaW5lIHgxPVwiMTJcIiB4Mj1cIjEyLjAxXCIgeTE9XCIxN1wiIHkyPVwiMTdcIi8+PC9zdmc+XG4gICAgICAgICAgICApLFxuICAgICAgICAgICAgRG9sbGFyU2lnbjogKCkgPT4gKFxuICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiIHdpZHRoPVwiMjRcIiBoZWlnaHQ9XCIyNFwiIHZpZXdCb3g9XCIwIDAgMjQgMjRcIiBmaWxsPVwibm9uZVwiIHN0cm9rZT1cImN1cnJlbnRDb2xvclwiIHN0cm9rZVdpZHRoPVwiMlwiIHN0cm9rZUxpbmVjYXA9XCJyb3VuZFwiIHN0cm9rZUxpbmVqb2luPVwicm91bmRcIj48bGluZSB4MT1cIjEyXCIgeDI9XCIxMlwiIHkxPVwiMlwiIHkyPVwiMjJcIi8+PHBhdGggZD1cIk0xNyA1SDkuNWEzLjUgMy41IDAgMCAwIDAgN2g1YTMuNSAzLjUgMCAwIDEgMCA3SDZcIi8+PC9zdmc+XG4gICAgICAgICAgICApLFxuICAgICAgICAgICAgQ2xvY2s6ICgpID0+IChcbiAgICAgICAgICAgICAgICA8c3ZnIHhtbG5zPVwiaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmdcIiB3aWR0aD1cIjI0XCIgaGVpZ2h0PVwiMjRcIiB2aWV3Qm94PVwiMCAwIDI0IDI0XCIgZmlsbD1cIm5vbmVcIiBzdHJva2U9XCJjdXJyZW50Q29sb3JcIiBzdHJva2VXaWR0aD1cIjJcIiBzdHJva2VMaW5lY2FwPVwicm91bmRcIiBzdHJva2VMaW5lam9pbj1cInJvdW5kXCI+PGNpcmNsZSBjeD1cIjEyXCIgY3k9XCIxMlwiIHI9XCIxMFwiLz48cG9seWxpbmUgcG9pbnRzPVwiMTIgNiAxMiAxMiAxNiAxNFwiLz48L3N2Zz5cbiAgICAgICAgICAgICksXG4gICAgICAgICAgICBDb3B5OiAoKSA9PiAoXG4gICAgICAgICAgICAgICAgPHN2ZyB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCIgd2lkdGg9XCIxNlwiIGhlaWdodD1cIjE2XCIgdmlld0JveD1cIjAgMCAyNCAyNFwiIGZpbGw9XCJub25lXCIgc3Ryb2tlPVwiY3VycmVudENvbG9yXCIgc3Ryb2tlV2lkdGg9XCIyXCIgc3Ryb2tlTGluZWNhcD1cInJvdW5kXCIgc3Ryb2tlTGluZWpvaW49XCJyb3VuZFwiPjxyZWN0IHdpZHRoPVwiMTRcIiBoZWlnaHQ9XCIxNFwiIHg9XCI4XCIgeT1cIjhcIiByeD1cIjJcIiByeT1cIjJcIi8+PHBhdGggZD1cIk00IDE2Yy0xLjEgMC0yLS45LTItMlY0YzAtMS4xLjktMiAyLTJoMTBjMS4xIDAgMiAuOSAyIDJcIi8+PC9zdmc+XG4gICAgICAgICAgICApXG4gICAgICAgIH07XG5cbiAgICAgICAgY29uc3QgQXBwID0gKCkgPT4ge1xuICAgICAgICAgICAgY29uc3QgUmVjaGFydHNMaWIgPSB3aW5kb3cuUmVjaGFydHM7XG4gICAgICAgICAgICBjb25zdCBbY29waWVkLCBzZXRDb3BpZWRdID0gdXNlU3RhdGUoZmFsc2UpO1xuXG4gICAgICAgICAgICBpZiAoIVJlY2hhcnRzTGliKSB7XG4gICAgICAgICAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBtaW4taC1zY3JlZW5cIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXIgcC04IGJnLXdoaXRlIHJvdW5kZWQteGwgc2hhZG93LWxnXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT1cInRleHQtcmVkLTYwMCBmb250LWJvbGQgdGV4dC14bCBtYi0yXCI+TG9hZGluZyBFcnJvcjwvaDI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1zbGF0ZS02MDBcIj5UaGUgdmlzdWFsaXphdGlvbiBsaWJyYXJ5IGNvdWxkIG5vdCBiZSBsb2FkZWQuPC9wPlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICk7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIGNvbnN0IHsgXG4gICAgICAgICAgICAgICAgQmFyQ2hhcnQsIEJhciwgWEF4aXMsIFlBeGlzLCBDYXJ0ZXNpYW5HcmlkLCBUb29sdGlwLCBMZWdlbmQsIFJlc3BvbnNpdmVDb250YWluZXIgXG4gICAgICAgICAgICB9ID0gUmVjaGFydHNMaWI7XG5cbiAgICAgICAgICAgIGNvbnN0IFt0ZWNobmljaWFucywgc2V0VGVjaG5pY2lhbnNdID0gdXNlU3RhdGUoMTIpO1xuICAgICAgICAgICAgY29uc3QgW2hvdXJzUGVyTW9udGgsIHNldEhvdXJzUGVyTW9udGhdID0gdXNlU3RhdGUoMTUwKTtcbiAgICAgICAgICAgIGNvbnN0IFttYW5Ib3Vyc1Blck92ZXJoYXVsLCBzZXRNYW5Ib3Vyc1Blck92ZXJoYXVsXSA9IHVzZVN0YXRlKDQ1MCk7XG4gICAgICAgICAgICBjb25zdCBbYXZnUGFydHNDb3N0LCBzZXRBdmdQYXJ0c0Nvc3RdID0gdXNlU3RhdGUoMjUwMDApO1xuICAgICAgICAgICAgY29uc3QgW292ZXJ0aW1lUHJlbWl1bSwgc2V0T3ZlcnRpbWVQcmVtaXVtXSA9IHVzZVN0YXRlKDEuNSk7XG4gICAgICAgICAgICBjb25zdCBbaG91cmx5UmF0ZSwgc2V0SG91cmx5UmF0ZV0gPSB1c2VTdGF0ZSg4NSk7XG5cbiAgICAgICAgICAgIGNvbnN0IFtzY2hlZHVsZSwgc2V0U2NoZWR1bGVdID0gdXNlU3RhdGUoW1xuICAgICAgICAgICAgICAgIHsgbW9udGg6ICdKYW4nLCB1bml0czogNCB9LCB7IG1vbnRoOiAnRmViJywgdW5pdHM6IDMgfSwgeyBtb250aDogJ01hcicsIHVuaXRzOiA1IH0sXG4gICAgICAgICAgICAgICAgeyBtb250aDogJ0FwcicsIHVuaXRzOiA0IH0sIHsgbW9udGg6ICdNYXknLCB1bml0czogNCB9LCB7IG1vbnRoOiAnSnVuJywgdW5pdHM6IDMgfSxcbiAgICAgICAgICAgICAgICB7IG1vbnRoOiAnSnVsJywgdW5pdHM6IDIwIH0sIHsgbW9udGg6ICdBdWcnLCB1bml0czogMTggfSwgeyBtb250aDogJ1NlcCcsIHVuaXRzOiA1IH0sXG4gICAgICAgICAgICAgICAgeyBtb250aDogJ09jdCcsIHVuaXRzOiA0IH0sIHsgbW9udGg6ICdOb3YnLCB1bml0czogMyB9LCB7IG1vbnRoOiAnRGVjJywgdW5pdHM6IDQgfVxuICAgICAgICAgICAgXSk7XG5cbiAgICAgICAgICAgIGNvbnN0IHRvdGFsQXZhaWxhYmxlSG91cnMgPSB0ZWNobmljaWFucyAqIGhvdXJzUGVyTW9udGg7XG5cbiAgICAgICAgICAgIGNvbnN0IGNhbGN1bGF0ZWREYXRhID0gdXNlTWVtbygoKSA9PiB7XG4gICAgICAgICAgICAgICAgcmV0dXJuIHNjaGVkdWxlLm1hcChpdGVtID0+IHtcbiAgICAgICAgICAgICAgICAgICAgY29uc3QgcmVxdWlyZWRIb3VycyA9IGl0ZW0udW5pdHMgKiBtYW5Ib3Vyc1Blck92ZXJoYXVsO1xuICAgICAgICAgICAgICAgICAgICBjb25zdCBjYXBhY2l0eUdhcCA9IE1hdGgubWF4KDAsIHJlcXVpcmVkSG91cnMgLSB0b3RhbEF2YWlsYWJsZUhvdXJzKTtcbiAgICAgICAgICAgICAgICAgICAgY29uc3Qgb3ZlcnRpbWVDb3N0ID0gY2FwYWNpdHlHYXAgKiBob3VybHlSYXRlICogb3ZlcnRpbWVQcmVtaXVtO1xuICAgICAgICAgICAgICAgICAgICBjb25zdCB1dGlsaXphdGlvbiA9IHRvdGFsQXZhaWxhYmxlSG91cnMgPiAwID8gKHJlcXVpcmVkSG91cnMgLyB0b3RhbEF2YWlsYWJsZUhvdXJzKSAqIDEwMCA6IDA7XG4gICAgICAgICAgICAgICAgICAgIGNvbnN0IHBhcnRzQ29zdCA9IGl0ZW0udW5pdHMgKiBhdmdQYXJ0c0Nvc3Q7XG4gICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICByZXR1cm4ge1xuICAgICAgICAgICAgICAgICAgICAgICAgLi4uaXRlbSxcbiAgICAgICAgICAgICAgICAgICAgICAgIHJlcXVpcmVkSG91cnMsXG4gICAgICAgICAgICAgICAgICAgICAgICBhdmFpbGFibGVIb3VyczogdG90YWxBdmFpbGFibGVIb3VycyxcbiAgICAgICAgICAgICAgICAgICAgICAgIGNhcGFjaXR5R2FwLFxuICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcnRpbWVDb3N0LFxuICAgICAgICAgICAgICAgICAgICAgICAgdXRpbGl6YXRpb246IE1hdGgucm91bmQodXRpbGl6YXRpb24pLFxuICAgICAgICAgICAgICAgICAgICAgICAgcGFydHNDb3N0LFxuICAgICAgICAgICAgICAgICAgICAgICAgdG90YWxGaW5hbmNpYWxJbXBhY3Q6IG92ZXJ0aW1lQ29zdCArIHBhcnRzQ29zdFxuICAgICAgICAgICAgICAgICAgICB9O1xuICAgICAgICAgICAgICAgIH0pO1xuICAgICAgICAgICAgfSwgW3NjaGVkdWxlLCB0b3RhbEF2YWlsYWJsZUhvdXJzLCBtYW5Ib3Vyc1Blck92ZXJoYXVsLCBob3VybHlSYXRlLCBvdmVydGltZVByZW1pdW0sIGF2Z1BhcnRzQ29zdF0pO1xuXG4gICAgICAgICAgICBjb25zdCB0b3RhbE92ZXJ0aW1lQ29zdCA9IGNhbGN1bGF0ZWREYXRhLnJlZHVjZSgoYWNjLCBjdXJyKSA9PiBhY2MgKyBjdXJyLm92ZXJ0aW1lQ29zdCwgMCk7XG4gICAgICAgICAgICBjb25zdCBtYXhVdGlsaXphdGlvbiA9IE1hdGgubWF4KC4uLmNhbGN1bGF0ZWREYXRhLm1hcChkID0+IGQudXRpbGl6YXRpb24pKTtcbiAgICAgICAgICAgIGNvbnN0IHRvdGFsVW5pdHMgPSBzY2hlZHVsZS5yZWR1Y2UoKGFjYywgY3VycikgPT4gYWNjICsgY3Vyci51bml0cywgMCk7XG5cbiAgICAgICAgICAgIGNvbnN0IGhhbmRsZVVuaXRDaGFuZ2UgPSAoaW5kZXgsIHZhbHVlKSA9PiB7XG4gICAgICAgICAgICAgICAgY29uc3QgdmFsID0gcGFyc2VJbnQodmFsdWUpO1xuICAgICAgICAgICAgICAgIGNvbnN0IG5ld1NjaGVkdWxlID0gWy4uLnNjaGVkdWxlXTtcbiAgICAgICAgICAgICAgICBuZXdTY2hlZHVsZVtpbmRleF0udW5pdHMgPSBpc05hTih2YWwpID8gMCA6IHZhbDtcbiAgICAgICAgICAgICAgICBzZXRTY2hlZHVsZShuZXdTY2hlZHVsZSk7XG4gICAgICAgICAgICB9O1xuXG4gICAgICAgICAgICBjb25zdCBoYW5kbGVDb3B5Q29kZSA9ICgpID0+IHtcbiAgICAgICAgICAgICAgICBjb25zdCBjb2RlID0gZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50Lm91dGVySFRNTDtcbiAgICAgICAgICAgICAgICBjb25zdCB0ZXh0QXJlYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJ0ZXh0YXJlYVwiKTtcbiAgICAgICAgICAgICAgICB0ZXh0QXJlYS52YWx1ZSA9IGNvZGU7XG4gICAgICAgICAgICAgICAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZCh0ZXh0QXJlYSk7XG4gICAgICAgICAgICAgICAgdGV4dEFyZWEuc2VsZWN0KCk7XG4gICAgICAgICAgICAgICAgdHJ5IHtcbiAgICAgICAgICAgICAgICAgICAgZG9jdW1lbnQuZXhlY0NvbW1hbmQoJ2NvcHknKTtcbiAgICAgICAgICAgICAgICAgICAgc2V0Q29waWVkKHRydWUpO1xuICAgICAgICAgICAgICAgICAgICBzZXRUaW1lb3V0KCgpID0+IHNldENvcGllZChmYWxzZSksIDIwMDApO1xuICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGVycikge1xuICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmVycm9yKCdGYWxsYmFjazogT29wcywgdW5hYmxlIHRvIGNvcHknLCBlcnIpO1xuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICBkb2N1bWVudC5ib2R5LnJlbW92ZUNoaWxkKHRleHRBcmVhKTtcbiAgICAgICAgICAgIH07XG5cbiAgICAgICAgICAgIHJldHVybiAoXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtaW4taC1zY3JlZW4gcC00IG1kOnAtOCB0ZXh0LXNsYXRlLTkwMFwiPlxuICAgICAgICAgICAgICAgICAgICA8aGVhZGVyIGNsYXNzTmFtZT1cIm1heC13LTd4bCBteC1hdXRvIG1iLThcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMgbWItMiB0ZXh0LWJsdWUtODAwXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGV4dC1ibHVlLTYwMFwiPjxJY29ucy5DYWxlbmRhciAvPjwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDEgY2xhc3NOYW1lPVwidGV4dC0yeGwgbWQ6dGV4dC0zeGwgZm9udC1ib2xkIHRyYWNraW5nLXRpZ2h0XCI+Tkg5MCBUT0EgRXh0ZW5zaW9uIEltcGFjdCBDYWxjdWxhdG9yPC9oMT5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGV4dC1zbGF0ZS01MDAgbWF4LXctMnhsXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgTG9naXN0aWNhbCBhbmQgZWNvbm9taWNhbCBhbmFseXNpcyB0b29sIGZvciBNUk8gY2FwYWNpdHkgcGxhbm5pbmcgYXQgR0tOIEZva2tlciBBZXJvc3BhY2UuXG4gICAgICAgICAgICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICAgICAgICAgIDwvaGVhZGVyPlxuXG4gICAgICAgICAgICAgICAgICAgIDxtYWluIGNsYXNzTmFtZT1cIm1heC13LTd4bCBteC1hdXRvIGdyaWQgZ3JpZC1jb2xzLTEgbGc6Z3JpZC1jb2xzLTEyIGdhcC04XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJsZzpjb2wtc3Bhbi00IHNwYWNlLXktNlwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmctd2hpdGUgcC02IHJvdW5kZWQtMnhsIHNoYWRvdy1zbSBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgZm9udC1zZW1pYm9sZCB0ZXh0LWxnIG1iLTQgdGV4dC1zbGF0ZS04MDBcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRleHQtYmx1ZS02MDBcIj48SWNvbnMuVXNlcnMgLz48L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNUk8gQ2FwYWNpdHkgU2V0dGluZ3NcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9oMj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzcGFjZS15LTRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT1cImJsb2NrIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1zbGF0ZS02MDAgbWItMSBmb250LXNlbWlib2xkXCI+QXZhaWxhYmxlIFRlY2huaWNpYW5zPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT1cInJhbmdlXCIgbWluPVwiMVwiIG1heD1cIjMwXCIgdmFsdWU9e3RlY2huaWNpYW5zfSBvbkNoYW5nZT17KGUpID0+IHNldFRlY2huaWNpYW5zKHBhcnNlSW50KGUudGFyZ2V0LnZhbHVlKSl9IGNsYXNzTmFtZT1cInctZnVsbCBoLTIgYmctc2xhdGUtMjAwIHJvdW5kZWQtbGcgYXBwZWFyYW5jZS1ub25lIGN1cnNvci1wb2ludGVyXCIgLz5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXgganVzdGlmeS1iZXR3ZWVuIHRleHQteHMgbXQtMSBmb250LW1vbm8gdGV4dC1ibHVlLTYwMCBmb250LWJvbGRcIj57dGVjaG5pY2lhbnN9IEZURXM8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPVwiYmxvY2sgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTYwMCBtYi0xIGZvbnQtc2VtaWJvbGRcIj5NYW4tSG91cnMgcGVyIE92ZXJoYXVsPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT1cIm51bWJlclwiIHZhbHVlPXttYW5Ib3Vyc1Blck92ZXJoYXVsfSBvbkNoYW5nZT17KGUpID0+IHNldE1hbkhvdXJzUGVyT3ZlcmhhdWwocGFyc2VJbnQoZS50YXJnZXQudmFsdWUpIHx8IDApfSBjbGFzc05hbWU9XCJ3LWZ1bGwgcHgtMyBweS0yIGJnLXNsYXRlLTUwIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIHJvdW5kZWQtbGcgb3V0bGluZS1ub25lIGZvY3VzOmJvcmRlci1ibHVlLTUwMCB0cmFuc2l0aW9uLWNvbG9yc1wiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHQtNCBib3JkZXItdCBib3JkZXItc2xhdGUtMTAwIGZsZXgganVzdGlmeS1iZXR3ZWVuIGl0ZW1zLWNlbnRlclwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRleHQtc20gdGV4dC1zbGF0ZS02MDAgZm9udC1tZWRpdW1cIj5Ub3RhbCBIb3Vycy9Nb250aDwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJmb250LWJvbGQgdGV4dC1ibHVlLTYwMFwiPnt0b3RhbEF2YWlsYWJsZUhvdXJzfWg8L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImJnLXdoaXRlIHAtNiByb3VuZGVkLTJ4bCBzaGFkb3ctc20gYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDBcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIGZvbnQtc2VtaWJvbGQgdGV4dC1sZyBtYi00IHRleHQtc2xhdGUtODAwXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJ0ZXh0LWdyZWVuLTYwMFwiPjxJY29ucy5UcmVuZGluZ1VwIC8+PC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU2NlbmFyaW86IDIwMjYgVW5pdHNcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9oMj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJncmlkIGdyaWQtY29scy0zIGdhcC0yXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7c2NoZWR1bGUubWFwKChpdGVtLCBpZHgpID0+IChcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGtleT17aXRlbS5tb250aH0+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9XCJibG9jayB0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgZm9udC1ib2xkIHRleHQtc2xhdGUtNDAwXCI+e2l0ZW0ubW9udGh9PC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGlucHV0IHR5cGU9XCJudW1iZXJcIiB2YWx1ZT17aXRlbS51bml0c30gb25DaGFuZ2U9eyhlKSA9PiBoYW5kbGVVbml0Q2hhbmdlKGlkeCwgZS50YXJnZXQudmFsdWUpfSBjbGFzc05hbWU9e2B3LWZ1bGwgcC0yIHRleHQtY2VudGVyIHRleHQtc20gYm9yZGVyIHJvdW5kZWQgb3V0bGluZS1ub25lIHRyYW5zaXRpb24tY29sb3JzICR7aXRlbS51bml0cyA+IDEwID8gJ2JnLXJlZC01MCBib3JkZXItcmVkLTMwMCB0ZXh0LXJlZC03MDAgZm9udC1ib2xkJyA6ICdiZy1zbGF0ZS01MCBib3JkZXItc2xhdGUtMjAwIGZvY3VzOmJvcmRlci1ibHVlLTQwMCd9YH0gLz5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvc2VjdGlvbj5cblxuICAgICAgICAgICAgICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwibGc6Y29sLXNwYW4tOCBzcGFjZS15LTZcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTMgZ2FwLTRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiZy13aGl0ZSBwLTUgcm91bmRlZC0yeGwgc2hhZG93LXNtIGJvcmRlciBib3JkZXItc2xhdGUtMjAwXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIG1iLTMgdGV4dC1yZWQtNTAwXCI+PEljb25zLkFsZXJ0VHJpYW5nbGUgLz48c3BhbiBjbGFzc05hbWU9XCJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtc2xhdGUtNTAwXCI+TWF4IFV0aWxpemF0aW9uPC9zcGFuPjwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2B0ZXh0LTJ4bCBmb250LWJvbGQgJHttYXhVdGlsaXphdGlvbiA+IDEwMCA/ICd0ZXh0LXJlZC02MDAnIDogJ3RleHQtc2xhdGUtOTAwJ31gfT57bWF4VXRpbGl6YXRpb259JTwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiZy13aGl0ZSBwLTUgcm91bmRlZC0yeGwgc2hhZG93LXNtIGJvcmRlciBib3JkZXItc2xhdGUtMjAwXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIG1iLTMgdGV4dC1ibHVlLTYwMFwiPjxJY29ucy5Eb2xsYXJTaWduIC8+PHNwYW4gY2xhc3NOYW1lPVwidGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXNsYXRlLTUwMFwiPk92ZXJ0aW1lIENvc3Q8L3NwYW4+PC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtMnhsIGZvbnQtYm9sZFwiPuKCrHt0b3RhbE92ZXJ0aW1lQ29zdC50b0xvY2FsZVN0cmluZygpfTwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJiZy13aGl0ZSBwLTUgcm91bmRlZC0yeGwgc2hhZG93LXNtIGJvcmRlciBib3JkZXItc2xhdGUtMjAwXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIG1iLTMgdGV4dC1zbGF0ZS02MDBcIj48SWNvbnMuQ2xvY2sgLz48c3BhbiBjbGFzc05hbWU9XCJ0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtc2xhdGUtNTAwXCI+VG90YWwgVW5pdHM8L3NwYW4+PC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtMnhsIGZvbnQtYm9sZFwiPnt0b3RhbFVuaXRzfTwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYmctd2hpdGUgcC02IHJvdW5kZWQtMnhsIHNoYWRvdy1zbSBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPVwiZm9udC1ib2xkIHRleHQtc2xhdGUtODAwIG1iLTZcIj5Xb3JrbG9hZCB2cyBDYXBhY2l0eSBBbmFseXNpczwvaDM+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaC04MCB3LWZ1bGxcIiBzdHlsZT17eyBtaW5IZWlnaHQ6ICczMjBweCcgfX0+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UmVzcG9uc2l2ZUNvbnRhaW5lciB3aWR0aD1cIjEwMCVcIiBoZWlnaHQ9XCIxMDAlXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEJhckNoYXJ0IGRhdGE9e2NhbGN1bGF0ZWREYXRhfSBtYXJnaW49e3sgdG9wOiAxMCwgcmlnaHQ6IDEwLCBsZWZ0OiAwLCBib3R0b206IDAgfX0+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxDYXJ0ZXNpYW5HcmlkIHN0cm9rZURhc2hhcnJheT1cIjMgM1wiIHZlcnRpY2FsPXtmYWxzZX0gc3Ryb2tlPVwiI2YxZjVmOVwiIC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxYQXhpcyBkYXRhS2V5PVwibW9udGhcIiBheGlzTGluZT17ZmFsc2V9IHRpY2tMaW5lPXtmYWxzZX0gdGljaz17e2ZpbGw6ICcjOTRhM2I4JywgZm9udFNpemU6IDEyfX0gLz5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFlBeGlzIGF4aXNMaW5lPXtmYWxzZX0gdGlja0xpbmU9e2ZhbHNlfSB0aWNrPXt7ZmlsbDogJyM5NGEzYjgnLCBmb250U2l6ZTogMTJ9fSAvPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8VG9vbHRpcCBjb250ZW50U3R5bGU9e3sgYm9yZGVyUmFkaXVzOiAnOHB4JywgYm9yZGVyOiAnbm9uZScsIGJveFNoYWRvdzogJzAgNHB4IDZweCAtMXB4IHJnYigwIDAgMCAvIDAuMSknIH19IC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxMZWdlbmQgdmVydGljYWxBbGlnbj1cInRvcFwiIGFsaWduPVwicmlnaHRcIiB3cmFwcGVyU3R5bGU9e3sgcGFkZGluZ0JvdHRvbTogJzIwcHgnIH19IC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxCYXIgZGF0YUtleT1cInJlcXVpcmVkSG91cnNcIiBuYW1lPVwiUmVxdWlyZWQgSG91cnNcIiBmaWxsPVwiIzNiODJmNlwiIHJhZGl1cz17WzQsIDQsIDAsIDBdfSAvPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8QmFyIGRhdGFLZXk9XCJhdmFpbGFibGVIb3Vyc1wiIG5hbWU9XCJTdGFuZGFyZCBDYXBhY2l0eVwiIGZpbGw9XCIjZTJlOGYwXCIgcmFkaXVzPXtbNCwgNCwgMCwgMF19IC8+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9CYXJDaGFydD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvUmVzcG9uc2l2ZUNvbnRhaW5lcj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImJnLXNsYXRlLTkwMCB0ZXh0LXdoaXRlIHAtOCByb3VuZGVkLTJ4bCBzaGFkb3ctbGcgYm9yZGVyIGJvcmRlci1zbGF0ZS04MDBcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGg0IGNsYXNzTmFtZT1cInRleHQteGwgZm9udC1ib2xkIG1iLTMgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTJcIj48c3BhbiBjbGFzc05hbWU9XCJ0ZXh0LWJsdWUtNDAwXCI+PEljb25zLlRyZW5kaW5nVXAgLz48L3NwYW4+U3RyYXRlZ2ljIEltcGFjdCBBbmFseXNpczwvaDQ+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cInRleHQtc2xhdGUtMzAwIHRleHQtc20gbGVhZGluZy1yZWxheGVkIG1iLTRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHttYXhVdGlsaXphdGlvbiA+IDEyMCA/IGBDUklUSUNBTDogV29ya2xvYWQgZXhjZWVkcyBjYXBhY2l0eSBieSAke21heFV0aWxpemF0aW9uIC0gMTAwfSUgZHVyaW5nIHBlYWsgbW9udGhzLmAgOiBcIlRoZSBjdXJyZW50IG1haW50ZW5hbmNlIHNjaGVkdWxlIGlzIHdpdGhpbiBtYW5hZ2VhYmxlIGxpbWl0cy5cIn1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9zZWN0aW9uPlxuICAgICAgICAgICAgICAgICAgICA8L21haW4+XG5cbiAgICAgICAgICAgICAgICAgICAgPGZvb3RlciBjbGFzc05hbWU9XCJtYXgtdy03eGwgbXgtYXV0byBtdC0xMiBwdC04IGJvcmRlci10IGJvcmRlci1zbGF0ZS0yMDAgdGV4dC1zbGF0ZS00MDAgdGV4dC14cyBmbGV4IGZsZXgtY29sIG1kOmZsZXgtcm93IGp1c3RpZnktYmV0d2VlbiBpdGVtcy1jZW50ZXIgZ2FwLTRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTRcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5HS04gRm9ra2VyIEFlcm9zcGFjZSBCLlYuPC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUNvcHlDb2RlfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBiZy1zbGF0ZS0xMDAgaG92ZXI6Ymctc2xhdGUtMjAwIHRleHQtc2xhdGUtNzAwIHB4LTMgcHktMS41IHJvdW5kZWQtbGcgdHJhbnNpdGlvbi1jb2xvcnMgZm9udC1tZWRpdW1cIlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPEljb25zLkNvcHkgLz5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2NvcGllZCA/ICdDb2RlIENvcGllZCEnIDogJ0NvcHkgQ29kZSBmb3IgU2F2aW5nJ31cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdj5BdXRob3I6IE9za2F5IENlbGlra29sIOKAoiA1MDA4NDYwNzc8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9mb290ZXI+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICApO1xuICAgICAgICB9O1xuXG4gICAgICAgIGNvbnN0IHJvb3QgPSBSZWFjdERPTS5jcmVhdGVSb290KGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290JykpO1xuICAgICAgICByb290LnJlbmRlcig8QXBwIC8+KTtcbiAgICAiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUNRLElBQUFBLE1BQUEsR0FBOEJDLEtBQUs7RUFBM0JDLFFBQVEsR0FBQUYsTUFBQSxDQUFSRSxRQUFRO0VBQUVDLE9BQU8sR0FBQUgsTUFBQSxDQUFQRyxPQUFPOztBQUV6QjtBQUNBLElBQU1DLEtBQUssR0FB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</script></head>\
+<body class="bg-slate-50">\
+    <div id="root"><div class="min-h-screen p-4 md:p-8 text-slate-900"><header class="max-w-7xl mx-auto mb-8"><div class="flex items-center gap-3 mb-2 text-blue-800"><span class="text-blue-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg></span><h1 class="text-2xl md:text-3xl font-bold tracking-tight">NH90 TOA Extension Impact Calculator</h1></div><p class="text-slate-500 max-w-2xl">Logistical and economical analysis tool for MRO capacity planning at GKN Fokker Aerospace.</p></header><main class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8"><section class="lg:col-span-4 space-y-6"><div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200"><h2 class="flex items-center gap-2 font-semibold text-lg mb-4 text-slate-800"><span class="text-blue-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></span>MRO Capacity Settings</h2><div class="space-y-4"><div><label class="block text-sm font-medium text-slate-600 mb-1 font-semibold">Available Technicians</label><input type="range" min="1" max="30" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer" value="12"><div class="flex justify-between text-xs mt-1 font-mono text-blue-600 font-bold">12 FTEs</div></div><div><label class="block text-sm font-medium text-slate-600 mb-1 font-semibold">Man-Hours per Overhaul</label><input type="number" class="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg outline-none focus:border-blue-500 transition-colors" value="450"></div><div class="pt-4 border-t border-slate-100 flex justify-between items-center"><span class="text-sm text-slate-600 font-medium">Total Hours/Month</span><span class="font-bold text-blue-600">1800h</span></div></div></div><div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200"><h2 class="flex items-center gap-2 font-semibold text-lg mb-4 text-slate-800"><span class="text-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg></span>Scenario: 2026 Units</h2><div class="grid grid-cols-3 gap-2"><div><label class="block text-[10px] uppercase font-bold text-slate-400">Jan</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-slate-50 border-slate-200 focus:border-blue-400" value="4"></div><div><label class="block text-[10px] uppercase font-bold text-slate-400">Feb</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-slate-50 border-slate-200 focus:border-blue-400" value="3"></div><div><label class="block text-[10px] uppercase font-bold text-slate-400">Mar</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-slate-50 border-slate-200 focus:border-blue-400" value="5"></div><div><label class="block text-[10px] uppercase font-bold text-slate-400">Apr</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-slate-50 border-slate-200 focus:border-blue-400" value="4"></div><div><label class="block text-[10px] uppercase font-bold text-slate-400">May</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-slate-50 border-slate-200 focus:border-blue-400" value="4"></div><div><label class="block text-[10px] uppercase font-bold text-slate-400">Jun</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-slate-50 border-slate-200 focus:border-blue-400" value="3"></div><div><label class="block text-[10px] uppercase font-bold text-slate-400">Jul</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-red-50 border-red-300 text-red-700 font-bold" value="20"></div><div><label class="block text-[10px] uppercase font-bold text-slate-400">Aug</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-red-50 border-red-300 text-red-700 font-bold" value="18"></div><div><label class="block text-[10px] uppercase font-bold text-slate-400">Sep</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-slate-50 border-slate-200 focus:border-blue-400" value="5"></div><div><label class="block text-[10px] uppercase font-bold text-slate-400">Oct</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-slate-50 border-slate-200 focus:border-blue-400" value="4"></div><div><label class="block text-[10px] uppercase font-bold text-slate-400">Nov</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-slate-50 border-slate-200 focus:border-blue-400" value="3"></div><div><label class="block text-[10px] uppercase font-bold text-slate-400">Dec</label><input type="number" class="w-full p-2 text-center text-sm border rounded outline-none transition-colors bg-slate-50 border-slate-200 focus:border-blue-400" value="4"></div></div></div></section><section class="lg:col-span-8 space-y-6"><div class="grid grid-cols-1 md:grid-cols-3 gap-4"><div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200"><div class="flex items-center gap-3 mb-3 text-red-500"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><line x1="12" x2="12" y1="9" y2="13"></line><line x1="12" x2="12.01" y1="17" y2="17"></line></svg><span class="text-sm font-medium text-slate-500">Max Utilization</span></div><div class="text-2xl font-bold text-red-600">500%</div></div><div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200"><div class="flex items-center gap-3 mb-3 text-blue-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="2" y2="22"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg><span class="text-sm font-medium text-slate-500">Overtime Cost</span></div><div class="text-2xl font-bold">\'801.836.000</div></div><div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200"><div class="flex items-center gap-3 mb-3 text-slate-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><span class="text-sm font-medium text-slate-500">Total Units</span></div><div class="text-2xl font-bold">77</div></div></div><div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200"><h3 class="font-bold text-slate-800 mb-6">Workload vs Capacity Analysis</h3><div class="h-80 w-full" style="min-height: 320px;"><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 100%; height: 100%; max-height: 320px; max-width: 735px;"><svg class="recharts-surface" width="735" height="320" viewBox="0 0 735 320" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clipPath id="recharts1-clip"><rect x="60" y="54" height="236" width="665"></rect></clipPath></defs><g class="recharts-cartesian-grid"><g class="recharts-cartesian-grid-horizontal"><line stroke-dasharray="3 3" stroke="#f1f5f9" fill="none" x="60" y="54" width="665" height="236" x1="60" y1="290" x2="725" y2="290"></line><line stroke-dasharray="3 3" stroke="#f1f5f9" fill="none" x="60" y="54" width="665" height="236" x1="60" y1="231" x2="725" y2="231"></line><line stroke-dasharray="3 3" stroke="#f1f5f9" fill="none" x="60" y="54" width="665" height="236" x1="60" y1="172" x2="725" y2="172"></line><line stroke-dasharray="3 3" stroke="#f1f5f9" fill="none" x="60" y="54" width="665" height="236" x1="60" y1="113" x2="725" y2="113"></line><line stroke-dasharray="3 3" stroke="#f1f5f9" fill="none" x="60" y="54" width="665" height="236" x1="60" y1="54" x2="725" y2="54"></line></g></g><g class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="87.70833333333333" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="87.70833333333333" dy="0.71em">Jan</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="143.125" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="143.125" dy="0.71em">Feb</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="198.54166666666666" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="198.54166666666666" dy="0.71em">Mar</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="253.95833333333334" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="253.95833333333334" dy="0.71em">Apr</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="309.37499999999994" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="309.37499999999994" dy="0.71em">May</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="364.79166666666663" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="364.79166666666663" dy="0.71em">Jun</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="420.2083333333333" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="420.2083333333333" dy="0.71em">Jul</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="475.62499999999994" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="475.62499999999994" dy="0.71em">Aug</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="531.0416666666666" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="531.0416666666666" dy="0.71em">Sep</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="586.4583333333334" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="586.4583333333334" dy="0.71em">Oct</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="641.875" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="641.875" dy="0.71em">Nov</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="665" height="30" stroke="none" font-size="12" x="697.2916666666666" y="298" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#94a3b8"><tspan x="697.2916666666666" dy="0.71em">Dec</tspan></text></g></g></g><g class="recharts-layer recharts-cartesian-axis recharts-yAxis yAxis"><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="left" width="60" height="236" stroke="none" font-size="12" x="52" y="290" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#94a3b8"><tspan x="52" dy="0.355em">0</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="left" width="60" height="236" stroke="none" font-size="12" x="52" y="231" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#94a3b8"><tspan x="52" dy="0.355em">2500</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="left" width="60" height="236" stroke="none" font-size="12" x="52" y="172" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#94a3b8"><tspan x="52" dy="0.355em">5000</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="left" width="60" height="236" stroke="none" font-size="12" x="52" y="113" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#94a3b8"><tspan x="52" dy="0.355em">7500</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="left" width="60" height="236" stroke="none" font-size="12" x="52" y="54" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="end" fill="#94a3b8"><tspan x="52" dy="0.355em">10000</tspan></text></g></g></g><g class="recharts-layer recharts-bar"><g class="recharts-layer recharts-bar-rectangles"><g class="recharts-layer"><g class="recharts-layer recharts-bar-rectangle"><path x="65.54166666666667" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M65.54166666666667,251.52A 4,4,0,0,1,69.54166666666667,247.52L 81.54166666666667,247.52A 4,4,0,0,1,\
+        85.54166666666667,251.52L 85.54166666666667,290L 65.54166666666667,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="120.95833333333333" y="258.14" width="20" height="31.860000000000014" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M120.95833333333333,262.14A 4,4,0,0,1,124.95833333333333,258.14L 136.95833333333331,258.14A 4,4,0,0,1,\
+        140.95833333333331,262.14L 140.95833333333331,290L 120.95833333333333,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="176.37499999999997" y="236.9" width="20" height="53.099999999999994" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M176.37499999999997,240.9A 4,4,0,0,1,180.37499999999997,236.9L 192.37499999999997,236.9A 4,4,0,0,1,\
+        196.37499999999997,240.9L 196.37499999999997,290L 176.37499999999997,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="231.79166666666666" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M231.79166666666666,251.52A 4,4,0,0,1,235.79166666666666,247.52L 247.79166666666666,247.52A 4,4,0,0,1,\
+        251.79166666666666,251.52L 251.79166666666666,290L 231.79166666666666,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="287.2083333333333" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M287.2083333333333,251.52A 4,4,0,0,1,291.2083333333333,247.52L 303.2083333333333,247.52A 4,4,0,0,1,\
+        307.2083333333333,251.52L 307.2083333333333,290L 287.2083333333333,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="342.625" y="258.14" width="20" height="31.860000000000014" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M342.625,262.14A 4,4,0,0,1,346.625,258.14L 358.625,258.14A 4,4,0,0,1,\
+        362.625,262.14L 362.625,290L 342.625,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="398.0416666666667" y="77.6" width="20" height="212.4" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M398.0416666666667,81.6A 4,4,0,0,1,402.0416666666667,77.6L 414.0416666666667,77.6A 4,4,0,0,1,\
+        418.0416666666667,81.6L 418.0416666666667,290L 398.0416666666667,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="453.4583333333333" y="98.83999999999997" width="20" height="191.16000000000003" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M453.4583333333333,102.83999999999997A 4,4,0,0,1,457.4583333333333,98.83999999999997L 469.4583333333333,98.83999999999997A 4,4,0,0,1,\
+        473.4583333333333,102.83999999999997L 473.4583333333333,290L 453.4583333333333,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="508.875" y="236.9" width="20" height="53.099999999999994" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M508.875,240.9A 4,4,0,0,1,512.875,236.9L 524.875,236.9A 4,4,0,0,1,\
+        528.875,240.9L 528.875,290L 508.875,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="564.2916666666666" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M564.2916666666666,251.52A 4,4,0,0,1,568.2916666666666,247.52L 580.2916666666666,247.52A 4,4,0,0,1,\
+        584.2916666666666,251.52L 584.2916666666666,290L 564.2916666666666,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="619.7083333333333" y="258.14" width="20" height="31.860000000000014" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M619.7083333333333,262.14A 4,4,0,0,1,623.7083333333333,258.14L 635.7083333333333,258.14A 4,4,0,0,1,\
+        639.7083333333333,262.14L 639.7083333333333,290L 619.7083333333333,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="675.1249999999999" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Required Hours" fill="#3b82f6" class="recharts-rectangle" d="M675.1249999999999,251.52A 4,4,0,0,1,679.1249999999999,247.52L 691.1249999999999,247.52A 4,4,0,0,1,\
+        695.1249999999999,251.52L 695.1249999999999,290L 675.1249999999999,290Z"></path></g></g></g><g class="recharts-layer"></g></g><g class="recharts-layer recharts-bar"><g class="recharts-layer recharts-bar-rectangles"><g class="recharts-layer"><g class="recharts-layer recharts-bar-rectangle"><path x="89.54166666666666" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M89.54166666666666,251.52A 4,4,0,0,1,93.54166666666666,247.52L 105.54166666666666,247.52A 4,4,0,0,1,\
+        109.54166666666666,251.52L 109.54166666666666,290L 89.54166666666666,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="144.95833333333331" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M144.95833333333331,251.52A 4,4,0,0,1,148.95833333333331,247.52L 160.95833333333331,247.52A 4,4,0,0,1,\
+        164.95833333333331,251.52L 164.95833333333331,290L 144.95833333333331,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="200.37499999999997" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M200.37499999999997,251.52A 4,4,0,0,1,204.37499999999997,247.52L 216.37499999999997,247.52A 4,4,0,0,1,\
+        220.37499999999997,251.52L 220.37499999999997,290L 200.37499999999997,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="255.79166666666666" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M255.79166666666666,251.52A 4,4,0,0,1,259.79166666666663,247.52L 271.79166666666663,247.52A 4,4,0,0,1,\
+        275.79166666666663,251.52L 275.79166666666663,290L 255.79166666666666,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="311.2083333333333" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M311.2083333333333,251.52A 4,4,0,0,1,315.2083333333333,247.52L 327.2083333333333,247.52A 4,4,0,0,1,\
+        331.2083333333333,251.52L 331.2083333333333,290L 311.2083333333333,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="366.625" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M366.625,251.52A 4,4,0,0,1,370.625,247.52L 382.625,247.52A 4,4,0,0,1,\
+        386.625,251.52L 386.625,290L 366.625,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="422.0416666666667" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M422.0416666666667,251.52A 4,4,0,0,1,426.0416666666667,247.52L 438.0416666666667,247.52A 4,4,0,0,1,\
+        442.0416666666667,251.52L 442.0416666666667,290L 422.0416666666667,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="477.4583333333333" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M477.4583333333333,251.52A 4,4,0,0,1,481.4583333333333,247.52L 493.4583333333333,247.52A 4,4,0,0,1,\
+        497.4583333333333,251.52L 497.4583333333333,290L 477.4583333333333,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="532.875" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M532.875,251.52A 4,4,0,0,1,536.875,247.52L 548.875,247.52A 4,4,0,0,1,\
+        552.875,251.52L 552.875,290L 532.875,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="588.2916666666666" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M588.2916666666666,251.52A 4,4,0,0,1,592.2916666666666,247.52L 604.2916666666666,247.52A 4,4,0,0,1,\
+        608.2916666666666,251.52L 608.2916666666666,290L 588.2916666666666,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="643.7083333333333" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M643.7083333333333,251.52A 4,4,0,0,1,647.7083333333333,247.52L 659.7083333333333,247.52A 4,4,0,0,1,\
+        663.7083333333333,251.52L 663.7083333333333,290L 643.7083333333333,290Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="699.1249999999999" y="247.52" width="20" height="42.47999999999999" radius="4,4,0,0" name="Standard Capacity" fill="#e2e8f0" class="recharts-rectangle" d="M699.1249999999999,251.52A 4,4,0,0,1,703.1249999999999,247.52L 715.1249999999999,247.52A 4,4,0,0,1,\
+        719.1249999999999,251.52L 719.1249999999999,290L 699.1249999999999,290Z"></path></g></g></g><g class="recharts-layer"></g></g></svg><div class="recharts-legend-wrapper" style="position: absolute; width: 725px; height: auto; right: 10px; top: 10px; padding-bottom: 20px;"><ul class="recharts-default-legend" style="padding: 0px; margin: 0px; text-align: right;"><li class="recharts-legend-item legend-item-0" style="display: inline-block; margin-right: 10px;"><svg class="recharts-surface" width="14" height="14" viewBox="0 0 32 32" style="display: inline-block; vertical-align: middle; margin-right: 4px;"><title></title><desc></desc><path stroke="none" fill="#3b82f6" d="M0,4h32v24h-32z" class="recharts-legend-icon"></path></svg><span class="recharts-legend-item-text" style="color: rgb(59, 130, 246);">Required Hours</span></li><li class="recharts-legend-item legend-item-1" style="display: inline-block; margin-right: 10px;"><svg class="recharts-surface" width="14" height="14" viewBox="0 0 32 32" style="display: inline-block; vertical-align: middle; margin-right: 4px;"><title></title><desc></desc><path stroke="none" fill="#e2e8f0" d="M0,4h32v24h-32z" class="recharts-legend-icon"></path></svg><span class="recharts-legend-item-text" style="color: rgb(226, 232, 240);">Standard Capacity</span></li></ul></div><div tabindex="-1" class="recharts-tooltip-wrapper recharts-tooltip-wrapper-right recharts-tooltip-wrapper-bottom" style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px; transform: translate(60px, 54px);"><div class="recharts-default-tooltip" style="margin: 0px; padding: 10px; background-color: rgb(255, 255, 255); border: none; white-space: nowrap; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px;"><p class="recharts-tooltip-label" style="margin: 0px;"></p></div></div></div></div></div></div><div class="bg-slate-900 text-white p-8 rounded-2xl shadow-lg border border-slate-800"><h4 class="text-xl font-bold mb-3 flex items-center gap-2"><span class="text-blue-400"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg></span>Strategic Impact Analysis</h4><p class="text-slate-300 text-sm leading-relaxed mb-4">CRITICAL: Workload exceeds capacity by 400% during peak months.</p></div></section></main><footer class="max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-200 text-slate-400 text-xs flex flex-col md:flex-row justify-between items-center gap-4"><div class="flex items-center gap-4"><span>GKN Fokker Aerospace B.V.</span><button class="flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1.5 rounded-lg transition-colors font-medium"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>Copy Code for Saving</button></div><div>Author: Oskay Celikkol \'95 500846077</div></footer></div></div>\
+\
+    <!-- Hidden textarea for copying code -->\
+    <textarea id="codeSource" style="display:none;"></textarea>\
+\
+    <script type="text/babel">\
+        const \{ useState, useMemo \} = React;\
+\
+        // Simple Inline SVG Icons for stability\
+        const Icons = \{\
+            Calendar: () => (\
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>\
+            ),\
+            Users: () => (\
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>\
+            ),\
+            TrendingUp: () => (\
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>\
+            ),\
+            AlertTriangle: () => (\
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" x2="12" y1="9" y2="13"/><line x1="12" x2="12.01" y1="17" y2="17"/></svg>\
+            ),\
+            DollarSign: () => (\
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>\
+            ),\
+            Clock: () => (\
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>\
+            ),\
+            Copy: () => (\
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>\
+            )\
+        \};\
+\
+        const App = () => \{\
+            const RechartsLib = window.Recharts;\
+            const [copied, setCopied] = useState(false);\
+\
+            if (!RechartsLib) \{\
+                return (\
+                    <div className="flex items-center justify-center min-h-screen">\
+                        <div className="text-center p-8 bg-white rounded-xl shadow-lg">\
+                            <h2 className="text-red-600 font-bold text-xl mb-2">Loading Error</h2>\
+                            <p className="text-slate-600">The visualization library could not be loaded.</p>\
+                        </div>\
+                    </div>\
+                );\
+            \}\
+\
+            const \{ \
+                BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer \
+            \} = RechartsLib;\
+\
+            const [technicians, setTechnicians] = useState(12);\
+            const [hoursPerMonth, setHoursPerMonth] = useState(150);\
+            const [manHoursPerOverhaul, setManHoursPerOverhaul] = useState(450);\
+            const [avgPartsCost, setAvgPartsCost] = useState(25000);\
+            const [overtimePremium, setOvertimePremium] = useState(1.5);\
+            const [hourlyRate, setHourlyRate] = useState(85);\
+\
+            const [schedule, setSchedule] = useState([\
+                \{ month: 'Jan', units: 4 \}, \{ month: 'Feb', units: 3 \}, \{ month: 'Mar', units: 5 \},\
+                \{ month: 'Apr', units: 4 \}, \{ month: 'May', units: 4 \}, \{ month: 'Jun', units: 3 \},\
+                \{ month: 'Jul', units: 20 \}, \{ month: 'Aug', units: 18 \}, \{ month: 'Sep', units: 5 \},\
+                \{ month: 'Oct', units: 4 \}, \{ month: 'Nov', units: 3 \}, \{ month: 'Dec', units: 4 \}\
+            ]);\
+\
+            const totalAvailableHours = technicians * hoursPerMonth;\
+\
+            const calculatedData = useMemo(() => \{\
+                return schedule.map(item => \{\
+                    const requiredHours = item.units * manHoursPerOverhaul;\
+                    const capacityGap = Math.max(0, requiredHours - totalAvailableHours);\
+                    const overtimeCost = capacityGap * hourlyRate * overtimePremium;\
+                    const utilization = totalAvailableHours > 0 ? (requiredHours / totalAvailableHours) * 100 : 0;\
+                    const partsCost = item.units * avgPartsCost;\
+                    \
+                    return \{\
+                        ...item,\
+                        requiredHours,\
+                        availableHours: totalAvailableHours,\
+                        capacityGap,\
+                        overtimeCost,\
+                        utilization: Math.round(utilization),\
+                        partsCost,\
+                        totalFinancialImpact: overtimeCost + partsCost\
+                    \};\
+                \});\
+            \}, [schedule, totalAvailableHours, manHoursPerOverhaul, hourlyRate, overtimePremium, avgPartsCost]);\
+\
+            const totalOvertimeCost = calculatedData.reduce((acc, curr) => acc + curr.overtimeCost, 0);\
+            const maxUtilization = Math.max(...calculatedData.map(d => d.utilization));\
+            const totalUnits = schedule.reduce((acc, curr) => acc + curr.units, 0);\
+\
+            const handleUnitChange = (index, value) => \{\
+                const val = parseInt(value);\
+                const newSchedule = [...schedule];\
+                newSchedule[index].units = isNaN(val) ? 0 : val;\
+                setSchedule(newSchedule);\
+            \};\
+\
+            const handleCopyCode = () => \{\
+                const code = document.documentElement.outerHTML;\
+                const textArea = document.createElement("textarea");\
+                textArea.value = code;\
+                document.body.appendChild(textArea);\
+                textArea.select();\
+                try \{\
+                    document.execCommand('copy');\
+                    setCopied(true);\
+                    setTimeout(() => setCopied(false), 2000);\
+                \} catch (err) \{\
+                    console.error('Fallback: Oops, unable to copy', err);\
+                \}\
+                document.body.removeChild(textArea);\
+            \};\
+\
+            return (\
+                <div className="min-h-screen p-4 md:p-8 text-slate-900">\
+                    <header className="max-w-7xl mx-auto mb-8">\
+                        <div className="flex items-center gap-3 mb-2 text-blue-800">\
+                            <span className="text-blue-600"><Icons.Calendar /></span>\
+                            <h1 className="text-2xl md:text-3xl font-bold tracking-tight">NH90 TOA Extension Impact Calculator</h1>\
+                        </div>\
+                        <p className="text-slate-500 max-w-2xl">\
+                            Logistical and economical analysis tool for MRO capacity planning at GKN Fokker Aerospace.\
+                        </p>\
+                    </header>\
+\
+                    <main className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">\
+                        <section className="lg:col-span-4 space-y-6">\
+                            <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">\
+                                <h2 className="flex items-center gap-2 font-semibold text-lg mb-4 text-slate-800">\
+                                    <span className="text-blue-600"><Icons.Users /></span>\
+                                    MRO Capacity Settings\
+                                </h2>\
+                                <div className="space-y-4">\
+                                    <div>\
+                                        <label className="block text-sm font-medium text-slate-600 mb-1 font-semibold">Available Technicians</label>\
+                                        <input type="range" min="1" max="30" value=\{technicians\} onChange=\{(e) => setTechnicians(parseInt(e.target.value))\} className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer" />\
+                                        <div className="flex justify-between text-xs mt-1 font-mono text-blue-600 font-bold">\{technicians\} FTEs</div>\
+                                    </div>\
+                                    <div>\
+                                        <label className="block text-sm font-medium text-slate-600 mb-1 font-semibold">Man-Hours per Overhaul</label>\
+                                        <input type="number" value=\{manHoursPerOverhaul\} onChange=\{(e) => setManHoursPerOverhaul(parseInt(e.target.value) || 0)\} className="w-full px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg outline-none focus:border-blue-500 transition-colors" />\
+                                    </div>\
+                                    <div className="pt-4 border-t border-slate-100 flex justify-between items-center">\
+                                        <span className="text-sm text-slate-600 font-medium">Total Hours/Month</span>\
+                                        <span className="font-bold text-blue-600">\{totalAvailableHours\}h</span>\
+                                    </div>\
+                                </div>\
+                            </div>\
+\
+                            <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">\
+                                <h2 className="flex items-center gap-2 font-semibold text-lg mb-4 text-slate-800">\
+                                    <span className="text-green-600"><Icons.TrendingUp /></span>\
+                                    Scenario: 2026 Units\
+                                </h2>\
+                                <div className="grid grid-cols-3 gap-2">\
+                                    \{schedule.map((item, idx) => (\
+                                        <div key=\{item.month\}>\
+                                            <label className="block text-[10px] uppercase font-bold text-slate-400">\{item.month\}</label>\
+                                            <input type="number" value=\{item.units\} onChange=\{(e) => handleUnitChange(idx, e.target.value)\} className=\{`w-full p-2 text-center text-sm border rounded outline-none transition-colors $\{item.units > 10 ? 'bg-red-50 border-red-300 text-red-700 font-bold' : 'bg-slate-50 border-slate-200 focus:border-blue-400'\}`\} />\
+                                        </div>\
+                                    ))\}\
+                                </div>\
+                            </div>\
+                        </section>\
+\
+                        <section className="lg:col-span-8 space-y-6">\
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">\
+                                <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-200">\
+                                    <div className="flex items-center gap-3 mb-3 text-red-500"><Icons.AlertTriangle /><span className="text-sm font-medium text-slate-500">Max Utilization</span></div>\
+                                    <div className=\{`text-2xl font-bold $\{maxUtilization > 100 ? 'text-red-600' : 'text-slate-900'\}`\}>\{maxUtilization\}%</div>\
+                                </div>\
+                                <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-200">\
+                                    <div className="flex items-center gap-3 mb-3 text-blue-600"><Icons.DollarSign /><span className="text-sm font-medium text-slate-500">Overtime Cost</span></div>\
+                                    <div className="text-2xl font-bold">\'80\{totalOvertimeCost.toLocaleString()\}</div>\
+                                </div>\
+                                <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-200">\
+                                    <div className="flex items-center gap-3 mb-3 text-slate-600"><Icons.Clock /><span className="text-sm font-medium text-slate-500">Total Units</span></div>\
+                                    <div className="text-2xl font-bold">\{totalUnits\}</div>\
+                                </div>\
+                            </div>\
+\
+                            <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">\
+                                <h3 className="font-bold text-slate-800 mb-6">Workload vs Capacity Analysis</h3>\
+                                <div className="h-80 w-full" style=\{\{ minHeight: '320px' \}\}>\
+                                    <ResponsiveContainer width="100%" height="100%">\
+                                        <BarChart data=\{calculatedData\} margin=\{\{ top: 10, right: 10, left: 0, bottom: 0 \}\}>\
+                                            <CartesianGrid strokeDasharray="3 3" vertical=\{false\} stroke="#f1f5f9" />\
+                                            <XAxis dataKey="month" axisLine=\{false\} tickLine=\{false\} tick=\{\{fill: '#94a3b8', fontSize: 12\}\} />\
+                                            <YAxis axisLine=\{false\} tickLine=\{false\} tick=\{\{fill: '#94a3b8', fontSize: 12\}\} />\
+                                            <Tooltip contentStyle=\{\{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' \}\} />\
+                                            <Legend verticalAlign="top" align="right" wrapperStyle=\{\{ paddingBottom: '20px' \}\} />\
+                                            <Bar dataKey="requiredHours" name="Required Hours" fill="#3b82f6" radius=\{[4, 4, 0, 0]\} />\
+                                            <Bar dataKey="availableHours" name="Standard Capacity" fill="#e2e8f0" radius=\{[4, 4, 0, 0]\} />\
+                                        </BarChart>\
+                                    </ResponsiveContainer>\
+                                </div>\
+                            </div>\
+\
+                            <div className="bg-slate-900 text-white p-8 rounded-2xl shadow-lg border border-slate-800">\
+                                <h4 className="text-xl font-bold mb-3 flex items-center gap-2"><span className="text-blue-400"><Icons.TrendingUp /></span>Strategic Impact Analysis</h4>\
+                                <p className="text-slate-300 text-sm leading-relaxed mb-4">\
+                                    \{maxUtilization > 120 ? `CRITICAL: Workload exceeds capacity by $\{maxUtilization - 100\}% during peak months.` : "The current maintenance schedule is within manageable limits."\}\
+                                </p>\
+                            </div>\
+                        </section>\
+                    </main>\
+\
+                    <footer className="max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-200 text-slate-400 text-xs flex flex-col md:flex-row justify-between items-center gap-4">\
+                        <div className="flex items-center gap-4">\
+                            <span>GKN Fokker Aerospace B.V.</span>\
+                            <button \
+                                onClick=\{handleCopyCode\}\
+                                className="flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1.5 rounded-lg transition-colors font-medium"\
+                            >\
+                                <Icons.Copy />\
+                                \{copied ? 'Code Copied!' : 'Copy Code for Saving'\}\
+                            </button>\
+                        </div>\
+                        <div>Author: Oskay Celikkol \'95 500846077</div>\
+                    </footer>\
+                </div>\
+            );\
+        \};\
+\
+        const root = ReactDOM.createRoot(document.getElementById('root'));\
+        root.render(<App />);\
+    </script>\
+\
+<span id="recharts_measurement_span" aria-hidden="true" style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; border: none; white-space: pre; font-size: 12px; letter-spacing: normal;">0</span></body></html>}
